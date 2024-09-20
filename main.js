@@ -21,20 +21,22 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 
-
-  
-  
-  
-  
-  function checkScroll() {
+function backAnimasi(scrollPosition, documentHeight) {
+    const back_animasi = document.getElementById('back-animasi');
     var scrollPosition = window.scrollY || document.documentElement.scrollTop;
     var documentHeight = document.documentElement.scrollHeight - window.innerHeight;
 
-    if ((scrollPosition / documentHeight) > 0.35) {
-      document.getElementById("back-animasi").style.opacity = "1"; 
-    } else {
-      document.getElementById("back-animasi").style.opacity = "0";  
-    }
+    if ((scrollPosition / documentHeight) >= 0.35 && (scrollPosition / documentHeight) <= 0.42) {
+      back_animasi.style.transition = '2s'
+      back_animasi.style.visibility = 'visible'
+      back_animasi.style.opacity = "1";
+    } 
+    else {
+      back_animasi.style.transition = '1s'
+      back_animasi.style.visibility = 'hidden'
+      back_animasi.style.opacity = "0";  
+     }
   }
+window.addEventListener("scroll", backAnimasi);
 
-  window.addEventListener("scroll", checkScroll);
+  
