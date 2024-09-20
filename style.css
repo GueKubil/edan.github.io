@@ -320,6 +320,18 @@
         margin: 0;
         width: 100%;
       }
+      .back-animasi {
+        opacity: 0;
+        transition: opacity 1s;
+        background-color: aliceblue;
+        color: #333;
+        width: 75%;
+        border-radius: 1rem;
+        margin-left: 10%;
+        font-weight: bolder;
+        margin-top: 3rem;
+        font-size: 1.5rem;
+      }
       .konten2 {
           background-color: #808D7C;
           margin-top: 7rem;
@@ -639,6 +651,18 @@
         padding: 0;
         width: 100%;
         margin: 0;
+      }
+      .back-animasi {
+        opacity: 0;
+        transition: opacity 1s;
+        background-color: aliceblue;
+        color: #333;
+        width: 75%;
+        border-radius: 1rem;
+        margin-left: 10%;
+        font-weight: bolder;
+        margin-top: 3rem;
+        font-size: 1.5rem;
       }
       html {
         width: 100%;
@@ -985,6 +1009,18 @@
         width: 100%;
         margin: 0;
       }
+      .back-animasi {
+        background-color: aliceblue;
+        color: #333;
+        width: 75%;
+        opacity: 0;
+        transition: opacity 1s;
+        border-radius: 0.2rem;
+        margin-left: 10%;
+        font-weight: bolder;
+        margin-top: 3rem;
+        font-size: 1.3rem;
+      }
       html {
         width: 100%;
       }
@@ -1002,8 +1038,9 @@
       .konten2 {
         background-color:#808D7C;
         padding: 2rem;
-        margin-top: 8rem;
+        margin-top: 3rem;
         width: 72%;
+        z-index: 9999;
         border-radius: 2rem;
         margin-left: 1rem;
         margin-right: 2rem;
@@ -1336,6 +1373,18 @@
             padding: 0;
             width: 100%;
             margin: 0;
+          }
+          .back-animasi {
+            opacity: 0;
+            transition: opacity 1s;
+            background-color: aliceblue;
+            color: #333;
+            width: 75%;
+            border-radius: 1rem;
+            margin-left: 10%;
+            font-weight: bolder;
+            margin-top: 3rem;
+            font-size: 1.3rem;
           }
           html {
             width: 100%;
@@ -1687,6 +1736,18 @@
         width: 100%;
         margin: 0;
       }
+      .back-animasi {
+        opacity: 0;
+        transition: opacity 1s;
+        background-color: aliceblue;
+        color: #333;
+        width: 75%;
+        border-radius: 1rem;
+        margin-left: 10%;
+        font-weight: bolder;
+        margin-top: 3rem;
+        font-size: 1.3rem;
+      }
       html {
         width: 100%;
       }
@@ -1704,7 +1765,7 @@
       .konten2 {
         background-color:#808D7C;
         padding: 2rem;
-        margin-top: 8rem;
+        margin-top: 4rem;
         width: 68%;
         border-radius: 2rem;
         margin-left: 1rem;
