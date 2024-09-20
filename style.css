@@ -1,5 +1,5 @@
 /* Desktop besar (lebih besar dari 1280px) */
-/* @media only screen and (min-width: 1281px) {
+ /* @media only screen and (min-width: 1281px) {
     body {
       background-color: #9CA986;
       padding: 0;
@@ -310,7 +310,7 @@
         padding-top: 1rem;
         font-weight: bolder;
     }
-  } */
+  }  */
   
   /* Laptop kecil atau tablet landscape (max-width: 1280px) */
   @media only screen and (min-width: 1025px) {
@@ -462,7 +462,7 @@
       .gambar-contentsatu {
           width: 35rem;
           border-radius: 10vh;
-          height: 35rem;
+          height: 45rem;
           margin-top: 2rem;
       }
       .gambar-content3 {
@@ -509,7 +509,7 @@
           width: 35rem;
           margin-top: 2rem;
           border-radius: 10vh;
-          height: 35rem;
+          height: 45rem;
       }
       .icon-navbar {
           display: flex;
@@ -776,7 +776,7 @@
         margin-left: 2rem;
         width: 85%;
         margin-right: 1rem;
-        height: 40rem;
+        height: 45rem;
       }
       /* .gambar-atas {
           display: flex;
@@ -789,7 +789,7 @@
           border-radius: 1rem;
           justify-content: center;
           display: flex;
-          height: 45rem;
+          height: 52rem;
       }
       .gambar-content3 {
         margin-top: 1rem;
@@ -844,7 +844,7 @@
           border-radius: 1rem;
           justify-content: center;
           display: flex;
-          height: 45rem;
+          height: 52rem;
         }
       .icon-navbar {
           display: flex;
@@ -1123,7 +1123,7 @@
         margin-left: 1rem;
         width: 85%;
         margin-right: 1rem;
-        height: 13rem;
+        height: 20rem;
       }
       /* .gambar-atas {
           display: flex;
@@ -1136,7 +1136,7 @@
         border-radius: 1rem;
         justify-content: center;
         display: flex;
-        height: 20rem;
+        height: 23rem;
       }
       .gambar-content3 {
         margin-top: 1rem;
@@ -1145,7 +1145,7 @@
         margin-left: 1rem;
         width: 85%;
         margin-right: 1rem;
-        height: 13rem;
+        height: 18rem;
     }
     .gambar-content4 {
         margin-top: 1rem;
@@ -1154,7 +1154,7 @@
         margin-left: 1rem;
         width: 85%;
         margin-right: 1rem;
-        height: 13rem;
+        height: 18rem;
     }
       .h2-content2 {
           display: flex;
@@ -1192,7 +1192,7 @@
           border-radius: 1rem;
           justify-content: center;
           display: flex;
-          height: 20rem;
+          height: 24rem;
         }
       .icon-navbar {
           display: flex;
@@ -1474,7 +1474,7 @@
             margin-left: 1rem;
             width: 90%;
             margin-right: 1rem;
-            height: 24rem;
+            height: 32rem;
           }
           /* .gambar-atas {
               display: flex;
@@ -1487,7 +1487,7 @@
               border-radius: 1rem;
               justify-content: center;
               display: flex;
-              height: 26rem;
+              height: 32rem;
           }
           .gambar-content3 {
             margin-top: 1rem;
@@ -1496,7 +1496,7 @@
             margin-left: 1rem;
             width: 90%;
             margin-right: 1rem;
-            height: 24rem;
+            height: 26rem;
         }
         .gambar-content4 {
             margin-top: 1rem;
@@ -1505,7 +1505,7 @@
             margin-left: 1rem;
             width: 90%;
             margin-right: 1rem;
-            height: 24rem;
+            height: 26rem;
         }
           .h2-content2 {
               display: flex;
@@ -1543,7 +1543,7 @@
               border-radius: 1rem;
               justify-content: center;
               display: flex;
-              height: 26rem;
+              height: 32rem;
             }
           .icon-navbar {
               display: flex;
@@ -1825,7 +1825,7 @@
           margin-left: 0.5rem;
           justify-content: center;
           display: flex;
-          height: 13rem;
+          height: 15rem;
       }
       /* .gambar-atas {
           display: flex;
@@ -1838,7 +1838,7 @@
           border-radius: 1rem;
           justify-content: center;
           display: flex;
-          height: 13rem;
+          height: 17rem;
       }
       .gambar-content3 {
         width: 92%;
@@ -1848,7 +1848,7 @@
           margin-left: 0.5rem;
           justify-content: center;
           display: flex;
-          height: 13rem;
+          height: 15rem;
     }
     .gambar-content4 {
         width: 92%;
@@ -1858,7 +1858,7 @@
         margin-left: 0.5rem;
         justify-content: center;
         display: flex;
-        height: 13rem;
+        height: 15rem;
     }
       .h2-content2 {
           display: flex;
@@ -1896,7 +1896,7 @@
           border-radius: 1rem;
           justify-content: center;
           display: flex;
-          height: 13rem;
+          height: 17rem;
         }
       .icon-navbar {
           display: flex;
