@@ -1,0 +1,2035 @@
+/* Desktop besar (lebih besar dari 1280px) */
+/* @media only screen and (min-width: 1281px) {
+    body {
+      background-color: #9CA986;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+    }
+    .paragraf2-content1 {
+        font-size: 3vh;
+        margin-top: 2rem;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 2rem;
+    }
+    .span-paragraf2-content1 {
+        margin-left: 1rem;
+        
+    }
+    .konten2 {
+        background-color: #808D7C;
+        margin-top: 7rem;
+        border-radius: 2rem;
+        margin-left: 1rem ;
+        margin-right: 1rem;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+    }
+    .span-gambar1 {
+        padding-left: 1rem;
+        font-weight: bolder;
+    }
+    .span-gambar2 {
+        padding-left: 1rem;
+        font-weight: bolder;
+    }
+    .span2-gambar1 {
+        padding-left: 1rem;
+    }
+    .paragraf-content2 {
+        width: 100vh;
+        font-size: 200;
+        margin-right: 5rem;
+        color: white;
+        padding-top: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+    }
+    .paragraf2-content2 {
+        width: 100vh;
+        padding-top: 2rem;
+        font-size: 200;
+        margin-right: 5rem;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+    }
+    .paragraf2-content4 {
+        width: 100vh;
+        padding-top: 2rem;
+        font-size: 200;
+        margin-right: 5rem;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+    }
+    .span2-gambar2 {
+        padding-left: 1rem;
+    }
+    .span2-gambar3 {
+        padding-left: 1rem;
+    }
+    .span-gambar3 {
+        padding-left: 1rem;
+        font-weight: bolder;
+    }
+    .paragraf2-content3 {
+        width: 100vh;
+        padding-top: 2rem;
+        font-size: 200;
+        margin-right: 5rem;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+    }
+    .paragraf-content3 {
+        width: 100vh;
+        margin-right: 5rem;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+    }
+    .paragraf-content4 {
+        width: 100vh;
+        margin-right: 5rem;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+    }
+    .gambar1 {
+        display: flex;
+        border-radius: 2rem;
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        background-color: #333;
+        justify-content: space-between;
+        gap: 5rem;
+    }
+    .gambar2 {
+        display: flex;
+        border-radius: 2rem;
+        padding-top: 3rem;
+        margin-left: 4rem;
+        padding-bottom: 2rem;
+        margin-top: 5rem;
+        margin-right: 4rem;
+        background-color: #333;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5rem;
+    }
+    .gambar3 {
+        display: flex;
+        border-radius: 2rem;
+        padding-top: 3rem;
+        margin-left: 4rem;
+        padding-bottom: 2rem;
+        margin-top: 5rem;
+        margin-right: 4rem;
+        background-color: #333;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5rem;
+    }
+    .gambar-content2 {
+        width: 40rem;
+        height: 20rem;
+        padding: 2rem;
+        margin-left: 2rem;
+        border-radius: 4rem;
+    }
+    .gambar-atas {
+        display: flex;
+        justify-content: space-between;
+    }
+    .gambar-contentsatu {
+        width: 35rem;
+        border-radius: 10vh;
+        height: 35rem;
+        margin-top: 2rem;
+    }
+    .gambar-content3 {
+        width: 20rem;
+        height: 20rem;
+        padding: 2rem;
+        margin-left: 2rem;
+        border-radius: 4rem;
+    }
+    .gambar-content4 {
+        width: 20rem;
+        height: 20rem;
+        padding: 2rem;
+        margin-left: 2rem;
+        border-radius: 4rem;
+    }
+    .h2-content2 {
+        display: flex;
+        padding-bottom: 3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: center;
+    }
+    .parag1 {
+        font-weight: bold;
+        margin-left: 2rem;
+    }
+    .konten1 {
+        background-color:#808D7C;
+        padding: 2rem;
+        width: 900rem;
+        margin-top: 8rem;
+        border-radius: 5rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .paragraf-content1 {
+        font-size: 3vh;
+        margin-top: 4rem;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 2rem;
+    }
+    .gambar-content1 {
+        width: 35rem;
+        margin-top: 2rem;
+        border-radius: 10vh;
+        height: 35rem;
+    }
+    .icon-navbar {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .h1 {
+        font-family: "Sofadi One", system-ui;
+        margin-left: 1em;
+        color: white;
+    }
+    .navbar {
+        background-color: black; 
+        display: flex;
+        margin-top: 0.5rem;
+        justify-content: space-between;
+    }
+    .wa {
+        width: 3rem;
+        padding: 1rem;
+        border-radius: 50%;
+        height: 3rem;
+    }
+    .fb {
+        width: 3rem;
+        padding: 1rem;
+        border-radius: 50%;
+        height: 3rem;
+        margin-right: 1em;
+    }
+    .wa:hover {
+        width: 2.5em;
+        height: 2.5em;
+    }
+    .fb:hover {
+        width: 2.5em;
+        height: 2.5em;
+    }
+    .notif {
+        display: none;
+        background-color: forestgreen;
+        font-weight:bolder ;
+        margin-top: 1rem;
+        padding-top: 1rem;
+        width: 10rem;
+        padding-left: 2vh;
+        border-radius: 3vh;
+        height: 2rem;
+    }
+    .footer{
+        background-color: #808D7C;
+        margin-top: 4rem;
+        padding-bottom: 2rem;
+        margin-left: 1rem ;
+        margin-right: 1rem;
+        padding-top: 1rem;
+        border-radius: 2rem;
+        margin-bottom: 2rem;
+    }
+    .span-footer {
+        margin-left: 1rem;
+    }
+    .p-footer {
+        margin-left: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        margin-right: 2rem;
+        
+    }
+    .h2-footer {
+        margin-left: 2rem;
+       
+    }
+    .overROW {
+        width: 90vw;
+    }
+    .overROWh2 {
+        width: 90vw;
+        
+    }
+    .wa-footer {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        
+    }
+    .fb-footer {
+        width: 3rem;
+        border-radius: 50%;
+        height: 3rem;
+    }
+    .wa-footer:hover {
+        width: 2.5em;
+        height: 2.5em;
+    }
+    .fb-footer:hover {
+        width: 2.5em;
+        height: 2.5em;
+    }
+    .back-footer {
+        background-color:   #617C58;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        border-radius: 1rem;
+        margin-right: 5rem;
+        margin-left: 5rem;
+    }
+    .cp {
+        display: flex;
+        justify-content: center;
+        padding-top: 1rem;
+        font-weight: bolder;
+    }
+  } */
+  
+  /* Laptop kecil atau tablet landscape (max-width: 1280px) */
+  @media only screen and (min-width: 1025px) {
+    body {
+        background-color: #9CA986;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+      }
+      .konten2 {
+          background-color: #808D7C;
+          margin-top: 7rem;
+          border-radius: 2rem;
+          margin-left: 2rem ;
+          margin-right: 1rem;
+          width: 95%;
+          padding-top: 3rem;
+          padding-bottom: 5rem;
+      }
+      .span-paragraf2-content1 {
+        margin-left: 2rem;
+      }
+      .paragraf2-content1 {
+         font-size: 100%;
+          margin-top: 1rem;
+          color: black;
+          font-family: Arial, Helvetica, sans-serif;
+          padding-bottom: 2rem;
+      }
+      .span-gambar1 {
+          padding-left: 1rem;
+          font-weight: bolder;
+      }
+      .span-gambar2 {
+          padding-left: 1rem;
+          font-weight: bolder;
+      }
+      .span2-gambar1 {
+          padding-left: 1rem;
+      }
+      .paragraf-content2 {
+          width: 100vh;
+          font-size: 200;
+          margin-right: 5rem;
+          color: white;
+          padding-top: 2rem;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 500;
+      }
+      .paragraf2-content2 {
+          width: 100vh;
+          padding-top: 2rem;
+          font-size: 200;
+          margin-right: 5rem;
+          color: white;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 500;
+      }
+      .paragraf2-content4 {
+          width: 100vh;
+          padding-top: 2rem;
+          font-size: 200;
+          margin-right: 5rem;
+          color: white;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 500;
+      }
+      .span2-gambar2 {
+          padding-left: 1rem;
+      }
+      .span2-gambar3 {
+          padding-left: 1rem;
+      }
+      .span-gambar3 {
+          padding-left: 1rem;
+          font-weight: bolder;
+      }
+      .paragraf2-content3 {
+          width: 100vh;
+          padding-top: 2rem;
+          font-size: 200;
+          margin-right: 5rem;
+          color: white;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 500;
+      }
+      .paragraf-content3 {
+          width: 100vh;
+          margin-right: 5rem;
+          color: white;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 500;
+      }
+      .paragraf-content4 {
+          width: 100vh;
+          margin-right: 5rem;
+          color: white;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 500;
+      }
+      .gambar1 {
+          display: flex;
+          border-radius: 2rem;
+          padding-top: 3rem;
+          padding-bottom: 2rem;
+          margin-left: 4rem;
+          margin-right: 4rem;
+          background-color: #333;
+          justify-content: space-between;
+          gap: 5rem;
+      }
+      .gambar2 {
+          display: flex;
+          border-radius: 2rem;
+          padding-top: 3rem;
+          margin-left: 4rem;
+          padding-bottom: 2rem;
+          margin-top: 5rem;
+          margin-right: 4rem;
+          background-color: #333;
+          justify-content: space-between;
+          align-items: center;
+          gap: 5rem;
+      }
+      .gambar3 {
+          display: flex;
+          border-radius: 2rem;
+          padding-top: 3rem;
+          margin-left: 4rem;
+          padding-bottom: 2rem;
+          margin-top: 5rem;
+          margin-right: 4rem;
+          background-color: #333;
+          justify-content: space-between;
+          align-items: center;
+          gap: 5rem;
+      }
+      .gambar-content2 {
+          width: 40rem;
+          height: 20rem;
+          padding: 2rem;
+          margin-left: 2rem;
+          border-radius: 4rem;
+      }
+      .gambar-atas {
+          display: flex;
+          justify-content: space-between;
+      }
+      .gambar-contentsatu {
+          width: 35rem;
+          border-radius: 10vh;
+          height: 35rem;
+          margin-top: 2rem;
+      }
+      .gambar-content3 {
+          width: 20rem;
+          height: 20rem;
+          padding: 2rem;
+          margin-left: 2rem;
+          border-radius: 4rem;
+      }
+      .gambar-content4 {
+          width: 20rem;
+          height: 20rem;
+          padding: 2rem;
+          margin-left: 2rem;
+          border-radius: 4rem;
+      }
+      .h2-content2 {
+          display: flex;
+          padding-bottom: 3rem;
+          font-family: Arial, Helvetica, sans-serif;
+          justify-content: center;
+      }
+      .parag1 {
+          font-weight: bold;
+          margin-left: 2rem;
+      }
+      .konten1 {
+          background-color:#808D7C;
+          padding: 2rem;
+          margin-top: 8rem;
+          width: 90%;
+          border-radius: 5rem;
+          margin-left: 2rem;
+          margin-right: 2rem;
+      }
+      .paragraf-content1 {
+          font-size: 100%;
+          margin-top: 4rem;
+          color: black;
+          font-family: Arial, Helvetica, sans-serif;
+          padding-bottom: 2rem;
+      }
+      .gambar-content1 {
+          width: 35rem;
+          margin-top: 2rem;
+          border-radius: 10vh;
+          height: 35rem;
+      }
+      .icon-navbar {
+          display: flex;
+          justify-content: flex-end;
+      }
+      .h1 {
+          font-family: "Sofadi One", system-ui;
+          margin-left: 1em;
+          color: white;
+      }
+      .navbar {
+          background-color: black; 
+          display: flex;
+          width: 100%;
+          margin-top: 0.5rem;
+          justify-content: space-between;
+      }
+      .wa {
+          width: 3rem;
+          padding: 1rem;
+          border-radius: 50%;
+          height: 3rem;
+      }
+      .fb {
+          width: 3rem;
+          padding: 1rem;
+          border-radius: 50%;
+          height: 3rem;
+          margin-right: 1em;
+      }
+      .wa:hover {
+          width: 2.5em;
+          height: 2.5em;
+      }
+      .fb:hover {
+          width: 2.5em;
+          height: 2.5em;
+      }
+      .notif {
+          display: none;
+          background-color: forestgreen;
+          font-weight:bolder ;
+          margin-top: 1rem;
+          padding-top: 1rem;
+          width: 10rem;
+          padding-left: 2vh;
+          border-radius: 3vh;
+          height: 2rem;
+      }
+      .row-navbar {
+        width: 100%;
+      }
+      .footer{
+          background-color: #808D7C;
+          margin-top: 4rem;
+          padding-bottom: 2rem;
+          margin-left: 2rem ;
+          margin-right: 2rem;
+          width: 95%;
+          padding-top: 1rem;
+          border-radius: 2rem;
+          margin-bottom: 2rem;
+      }
+      .span-footer {
+          margin-left: 1rem;
+      }
+      .p-footer {
+          margin-left: 2rem;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 500;
+          margin-right: 2rem;
+          
+      }
+      .h2-footer {
+          margin-left: 2rem;
+         
+      }
+      .overROW {
+          width: 90vw;
+      }
+      .overROWh2 {
+          width: 90vw;
+          
+      }
+      .wa-footer {
+          width: 3rem;
+          height: 3rem;
+          border-radius: 50%;
+          
+      }
+      .fb-footer {
+          width: 3rem;
+          border-radius: 50%;
+          height: 3rem;
+      }
+      .wa-footer:hover {
+          width: 2.5em;
+          height: 2.5em;
+      }
+      .fb-footer:hover {
+          width: 2.5em;
+          height: 2.5em;
+      }
+      .back-footer {
+          background-color:   #617C58;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 2rem;
+          border-radius: 1rem;
+          margin-right: 5rem;
+          margin-left: 5rem;
+      }
+      .cp {
+          display: flex;
+          justify-content: center;
+          padding-top: 1rem;
+          font-weight: bolder;
+      }
+    }
+    
+  
+  /* Tablet potret (max-width: 1024px) */
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        background-color: #9CA986;
+        padding: 0;
+        width: 100%;
+        margin: 0;
+      }
+      html {
+        width: 100%;
+      }
+    .paragraf2-content1 {
+        font-size: 3vh;
+        margin-top: 2rem;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 2rem;
+    }
+    .span-paragraf2-content1 {
+        margin-left: 1rem;
+    }
+      .konten2 {
+        background-color:#808D7C;
+          padding: 2rem;
+          margin-top: 8rem;
+          width: 85%;
+          border-radius: 2rem;
+          margin-left: 1rem;
+    }
+      .span-gambar1 {
+          padding-left: 1rem;
+          font-weight: bolder;
+      }
+      .span-gambar2 {
+          padding-left: 1rem;
+          font-weight: bolder;
+      }
+      .span2-gambar1 {
+          padding-left: 1rem;
+      }
+      .paragraf-content2 {
+          width: 39rem;
+          font-size: 1.1rem;
+          margin-left: 1rem;
+          color: white;
+          padding-top: 1rem;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 500;
+      }
+      .paragraf2-content2 {
+        width: 39rem;
+        font-size: 1.1rem;
+        margin-left: 1rem;
+        color: white;
+        padding-top: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+      }
+      .paragraf2-content4 {
+        width: 39rem;
+          font-size: 1.1rem;
+          margin-left: 1rem;
+          color: white;
+          padding-top: 1rem;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 500;
+      }
+      .span2-gambar2 {
+          padding-left: 1rem;
+      }
+      .span2-gambar3 {
+          padding-left: 1rem;
+      }
+      .span-gambar3 {
+          padding-left: 1rem;
+          font-weight: bolder;
+      }
+      .paragraf2-content3 {
+        width: 39rem;
+        font-size: 1.1rem;
+        margin-left: 1rem;
+        color: white;
+        padding-top: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+      }
+      .paragraf-content3 {
+        width: 39rem;
+        font-size: 1.1rem;
+        margin-left: 1rem;
+        color: white;
+        padding-top: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+    }
+    .paragraf-content4 {
+        width: 39rem;
+          font-size: 1.1rem;
+          margin-left: 1rem;
+          color: white;
+          padding-top: 1rem;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 500;
+    }
+      .gambar1 {
+          /* display: flex; */
+          border-radius: 1rem;
+          padding-top: 2rem;
+          padding-bottom: 2rem;
+          width: 100%;
+          margin-bottom: 2rem;
+          background-color: #333;
+         /* justify-content: space-between; */
+          
+      }
+      .gambar2 {
+           /* display: flex; */
+           border-radius: 1rem;
+           padding-top: 2rem;
+           padding-bottom: 2rem;
+           width: 100%;
+           margin-bottom: 2rem;
+           background-color: #333;
+           /* justify-content: space-between; */
+           /* gap: 5rem; */
+      }
+      .gambar3 {
+        /* display: flex; */
+        border-radius: 1rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        width: 100%;
+        margin-bottom: 2rem;
+        background-color: #333;
+        /* justify-content: space-between; */
+        gap: 5rem;
+   }
+      .gambar-content2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 1rem;
+        margin-left: 2rem;
+        width: 85%;
+        margin-right: 1rem;
+        height: 40rem;
+      }
+      /* .gambar-atas {
+          display: flex;
+          justify-content: space-between;
+      } */
+      .gambar-contentsatu {
+        width: 95%;
+          margin-top: 2rem;
+          margin-bottom: 4rem;
+          border-radius: 1rem;
+          justify-content: center;
+          display: flex;
+          height: 45rem;
+      }
+      .gambar-content3 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 1rem;
+        margin-left: 2rem;
+        width: 85%;
+        margin-right: 1rem;
+        height: 40rem;
+    }
+    .gambar-content4 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 1rem;
+        margin-left: 2rem;
+        width: 85%;
+        margin-right: 1rem;
+        height: 40rem;
+    }
+      .h2-content2 {
+          display: flex;
+          padding-bottom: 3rem;
+          font-size: 1rem;
+          font-family: Arial, Helvetica, sans-serif;
+          justify-content: center;
+      }
+      .parag1 {
+          font-weight: bold;
+          margin-left: 2rem;
+      }
+      .konten1 {
+          background-color:#808D7C;
+          padding: 2rem;
+          margin-top: 8rem;
+          width: 85%;
+          border-radius: 2rem;
+          margin-left: 1rem;
+          /* margin-right: 2rem; */
+          
+      }
+      .paragraf-content1 {
+          font-size: 1.2rem;
+          margin-top: 0.2rem;
+          color: black;
+          font-family: Arial, Helvetica, sans-serif;
+          padding-bottom: 0.2rem;
+      }
+      .gambar-content1 {
+          width: 95%;
+          margin-top: 2rem;
+          margin-bottom: 4rem;
+          border-radius: 1rem;
+          justify-content: center;
+          display: flex;
+          height: 45rem;
+        }
+      .icon-navbar {
+          display: flex;
+          justify-content: flex-end;
+      }
+      .h1 {
+          font-family: "Sofadi One", system-ui;
+          margin-left: 0.5em;
+          font-size: 1.8rem;
+          color: white;
+          
+      }
+      .navbar {
+          background-color: black; 
+          display: flex;
+          height: 2rem;
+          padding-top: 3rem;
+          width: 100%;
+          gap: 4rem;
+          align-items: center;
+          padding-bottom: 2rem;
+          margin-top: 0.5rem;
+          justify-content: space-between;
+      }
+      .wa {
+          width: 3rem;
+          border-radius: 50%;
+          height: 3rem;
+          margin-right: 2rem;
+          margin-bottom: 1rem;
+      }
+      .fb {
+         width: 3rem;
+          border-radius: 50%;
+          height: 3rem;
+          margin-right: 3rem;
+          margin-bottom: 1rem;
+      }
+      /* .wa:hover {
+          width: 2.9em;
+          height: 2.9em;
+      }
+      .fb:hover {
+          width: 2.5em;
+          height: 2.5em;
+      } */
+      .notif {
+          display: none;
+          background-color: forestgreen;
+          font-weight:bolder ;
+          margin-top: 1rem;
+          padding-top: 1rem;
+          width: 10rem;
+          padding-left: 2vh;
+          border-radius: 3vh;
+          height: 2rem;
+      }
+      .row-navbar {
+        width: 100%;
+      }
+      .footer{
+          background-color: #808D7C;
+          margin-top: 5rem;
+          padding-bottom: 2rem;
+          margin-left: 1rem ;
+          width: 93%;
+          padding-top: 1rem;
+          border-radius: 1rem;
+          margin-bottom: 2rem;
+      }
+      .span-footer {
+          margin-left: 1rem;
+      }
+      .p-footer {
+          margin-left: 1rem;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 500;
+          font-size: 1.1rem;
+          margin-right: 2rem;
+          width: 95%;
+      }
+      .h2-footer {
+          margin-left: 1rem;
+          font-size: 1rem;
+      } 
+      .overROW {
+          width: 70%;
+      }
+      .overROWh2 {
+          width: 70%;
+          
+      }
+      .wa-footer {
+          width: 3rem;
+          margin-left: 0.2rem;
+          height: 3rem;
+          border-radius: 50%;
+          
+      }
+      .fb-footer {
+        width: 3rem;
+        height: 3rem;
+        margin-left: 0.1rem;
+        border-radius: 50%;
+      }
+      /* .wa-footer:hover {
+          width: 1em;
+          height: 1em;
+      }
+      .fb-footer:hover {
+          width: 2.5em;
+          height: 2.5em;
+      } */
+      .back-footer {
+          background-color:   #617C58;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 2rem;
+          height: 3rem;
+          border-radius: 1rem;
+          margin-right: 1rem;
+          margin-left: 1rem;
+      }
+      .cp {
+          display: flex;
+          justify-content: center;
+          padding-top: 1rem;
+          font-size: 0.9rem;
+          font-weight: bolder;
+      }
+    }
+/* Smartphone potret (max-width: 600px) */
+@media screen and (min-width: 350px) and (max-width: 500px) {
+    body {
+        background-color: #9CA986;
+        padding: 0;
+        width: 100%;
+        margin: 0;
+      }
+      html {
+        width: 100%;
+      }
+      .paragraf2-content1 {
+        font-size: 95%;
+        width: 95%;
+        margin-top: 2rem;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 2rem;
+    }
+    .span-paragraf2-content1 {
+        margin-left: 1rem;
+    }
+      .konten2 {
+        background-color:#808D7C;
+        padding: 2rem;
+        margin-top: 8rem;
+        width: 72%;
+        border-radius: 2rem;
+        margin-left: 1rem;
+        margin-right: 2rem;
+    }
+      .span-gambar1 {
+          padding-left: 1rem;
+          font-weight: bolder;
+      }
+      .span-gambar2 {
+          padding-left: 1rem;
+          font-weight: bolder;
+      }
+      .span2-gambar1 {
+          padding-left: 1rem;
+      }
+      .paragraf-content2 {
+          width: 85%;
+          font-size: 0.8rem;
+          margin-left: 1rem;
+          color: white;
+          padding-top: 1rem;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 500;
+      }
+      .paragraf2-content2 {
+        width: 85%;
+          font-size: 0.8rem;
+          margin-left: 1rem;
+          color: white;
+          padding-top: 1rem;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 500;
+      }
+      .paragraf2-content4 {
+        width: 85%;
+          font-size: 0.8rem;
+          margin-left: 1rem;
+          color: white;
+          padding-top: 1rem;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 500;
+      }
+      .span2-gambar2 {
+          padding-left: 1rem;
+      }
+      .span2-gambar3 {
+          padding-left: 1rem;
+      }
+      .span-gambar3 {
+          padding-left: 1rem;
+          font-weight: bolder;
+      }
+      .paragraf2-content3 {
+        width: 85%;
+          font-size: 0.8rem;
+          margin-left: 1rem;
+          color: white;
+          padding-top: 1rem;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 500;
+      }
+      .paragraf-content3 {
+        width: 85%;
+        font-size: 0.8rem;
+        margin-left: 1rem;
+        color: white;
+        padding-top: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+    }
+    .paragraf-content4 {
+        width: 85%;
+          font-size: 0.8rem;
+          margin-left: 1rem;
+          color: white;
+          padding-top: 1rem;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 500;
+    }
+      .gambar1 {
+          /* display: flex; */
+          border-radius: 1rem;
+          padding-top: 3rem;
+          padding-bottom: 2rem;
+          width: 100%;
+          margin-bottom: 2rem;
+          background-color: #333;
+         /* justify-content: space-between; */
+          
+      }
+      .gambar2 {
+           /* display: flex; */
+           border-radius: 1rem;
+           padding-top: 2rem;
+           padding-bottom: 2rem;
+           width: 100%;
+           margin-bottom: 2rem;
+           background-color: #333;
+           /* justify-content: space-between; */
+           /* gap: 5rem; */
+      }
+      .gambar3 {
+        /* display: flex; */
+        border-radius: 1rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        width: 100%;
+        margin-bottom: 2rem;
+        background-color: #333;
+        /* justify-content: space-between; */
+        gap: 5rem;
+   }
+      .gambar-content2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 1rem;
+        margin-left: 1rem;
+        width: 85%;
+        margin-right: 1rem;
+        height: 13rem;
+      }
+      /* .gambar-atas {
+          display: flex;
+          justify-content: space-between;
+      } */
+      .gambar-contentsatu {
+        width: 100%;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+        border-radius: 1rem;
+        justify-content: center;
+        display: flex;
+        height: 20rem;
+      }
+      .gambar-content3 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 1rem;
+        margin-left: 1rem;
+        width: 85%;
+        margin-right: 1rem;
+        height: 13rem;
+    }
+    .gambar-content4 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 1rem;
+        margin-left: 1rem;
+        width: 85%;
+        margin-right: 1rem;
+        height: 13rem;
+    }
+      .h2-content2 {
+          display: flex;
+          padding-bottom: 3rem;
+          font-size: 63%;
+          font-family: Arial, Helvetica, sans-serif;
+          justify-content: center;
+      }
+      .parag1 {
+          font-weight: bold;
+          margin-left: 2rem;
+      }
+      .konten1 {
+          background-color:#808D7C;
+          padding: 2rem;
+          margin-top: 8rem;
+          width: 72%;
+          border-radius: 2rem;
+          margin-left: 1rem;
+          margin-right: 2rem;
+          
+      }
+      .paragraf-content1 {
+          font-size: 95%;
+          margin-top: 0.2rem;
+          color: black;
+          width: 98%;
+          font-family: Arial, Helvetica, sans-serif;
+          padding-bottom: 0.2rem;
+      }
+      .gambar-content1 {
+          width: 100%;
+          margin-top: 2rem;
+          margin-bottom: 4rem;
+          border-radius: 1rem;
+          justify-content: center;
+          display: flex;
+          height: 20rem;
+        }
+      .icon-navbar {
+          display: flex;
+          justify-content: flex-end;
+      }
+      .h1 {
+          font-family: "Sofadi One", system-ui;
+          margin-left: 0.5em;
+          font-size: 1.5rem;
+          color: white;
+          
+      }
+      .navbar {
+          background-color: black; 
+          display: flex;
+          height: 1rem;
+          padding-top: 3rem;
+          width: 100%;
+          gap: 5.5rem;
+          align-items: center;
+          padding-bottom: 2rem;
+          margin-top: 0.5rem;
+          justify-content: space-between;
+      }
+      .wa {
+          width: 3rem;
+          border-radius: 50%;
+          height: 3rem;
+          margin-right: 0.7rem;
+          margin-bottom: 1rem;
+      }
+      .fb {
+         width: 3rem;
+          border-radius: 50%;
+          height:3rem;
+          margin-right: 3rem;
+          margin-bottom: 1rem;
+      }
+      .wa:hover {
+          width: 2.5em;
+          height: 2.5em;
+      }
+      .fb:hover {
+          width: 2.5em;
+          height: 2.5em;
+      }
+      .notif {
+          display: none;
+          background-color: forestgreen;
+          font-weight:bolder ;
+          margin-top: 1rem;
+          padding-top: 1rem;
+          width: 10rem;
+          padding-left: 2vh;
+          border-radius: 3vh;
+          height: 2rem;
+      }
+      .row-navbar {
+        width: 100%;
+      }
+      .footer{
+          background-color: #808D7C;
+          margin-top: 20%;
+          padding-bottom: 2rem;
+          margin-left: 1rem ;
+          width: 90%;
+          padding-top: 1rem;
+          border-radius: 1rem;
+          margin-bottom: 2rem;
+      }
+      .span-footer {
+          margin-left: 1rem;
+      }
+      .p-footer {
+          margin-left: 1rem;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 500;
+          font-size: 1rem;
+          margin-right: 2rem;
+          width: 90%;
+      }
+      .h2-footer {
+          margin-left: 1rem;
+          font-size: 70%;
+          
+      } 
+      .overROW {
+          width: 70%;
+      }
+      .overROWh2 {
+          width: 70%;
+          
+      }
+      .wa-footer {
+          width: 2.5rem;
+          margin-left: 0.1rem;
+          height: 2.5rem;
+          border-radius: 50%;
+          
+          
+      }
+      .fb-footer {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-left: 0.1rem;
+        border-radius: 50%;
+      }
+      /* .wa-footer:hover {
+          width: 1em;
+          height: 1em;
+      }
+      .fb-footer:hover {
+          width: 2.5em;
+          height: 2.5em;
+      } */
+      .back-footer {
+          background-color:   #617C58;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 2rem;
+          height: 3rem;
+          border-radius: 1rem;
+          width: 90%;
+          margin-right: 1rem;
+          margin-left: 1rem;
+      }
+      .cp {
+          display: flex;
+          justify-content: center;
+          padding-top: 1rem;
+          font-size: 0.7rem;
+          font-weight: bolder;
+      }
+    }
+
+    /* mobile potrait uk sedang - besar */
+    @media screen and (min-width: 501px) and (max-width: 767px) {
+        body {
+            background-color: #9CA986;
+            padding: 0;
+            width: 100%;
+            margin: 0;
+          }
+          html {
+            width: 100%;
+          }
+          .paragraf2-content1 {
+            font-size: 100%;
+            width: 98%;
+            margin-top: 2rem;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-bottom: 2rem;
+        }
+        .span-paragraf2-content1 {
+            margin-left: 1rem;
+        }
+          .konten2 {
+            background-color:#808D7C;
+            padding: 2rem;
+            margin-top: 8rem;
+            width: 80%;
+            border-radius: 2rem;
+            margin-left: 1rem;
+        }
+          .span-gambar1 {
+              padding-left: 1rem;
+              font-weight: bolder;
+          }
+          .span-gambar2 {
+              padding-left: 1rem;
+              font-weight: bolder;
+          }
+          .span2-gambar1 {
+              padding-left: 1rem;
+          }
+          .paragraf-content2 {
+              width: 93%;
+              font-size: 1.1rem;
+              margin-left: 1rem;
+              color: white;
+              padding-top: 1rem;
+              font-family: Arial, Helvetica, sans-serif;
+              font-weight: 500;
+          }
+          .paragraf2-content2 {
+            width: 93%;
+            font-size: 1.1rem;
+            margin-left: 1rem;
+            color: white;
+            padding-top: 1rem;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+          }
+          .paragraf2-content4 {
+            width: 93%;
+            font-size: 1.1rem;
+            margin-left: 1rem;
+            color: white;
+            padding-top: 1rem;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+          }
+          .span2-gambar2 {
+              padding-left: 1rem;
+          }
+          .span2-gambar3 {
+              padding-left: 1rem;
+          }
+          .span-gambar3 {
+              padding-left: 1rem;
+              font-weight: bolder;
+          }
+          .paragraf2-content3 {
+            width: 93%;
+              font-size: 1.1rem;
+              margin-left: 1rem;
+              color: white;
+              padding-top: 1rem;
+              font-family: Arial, Helvetica, sans-serif;
+              font-weight: 500;
+          }
+          .paragraf-content3 {
+            width: 93%;
+            font-size: 1.1rem;
+            margin-left: 1rem;
+            color: white;
+            padding-top: 1rem;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+        }
+        .paragraf-content4 {
+            width: 93%;
+            font-size: 1.1rem;
+            margin-left: 1rem;
+            color: white;
+            padding-top: 1rem;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+        }
+          .gambar1 {
+              /* display: flex; */
+              border-radius: 1rem;
+              padding-top: 2rem;
+              padding-bottom: 2rem;
+              width: 100%;
+              margin-bottom: 2rem;
+              background-color: #333;
+             /* justify-content: space-between; */
+              
+          }
+          .gambar2 {
+               /* display: flex; */
+               border-radius: 1rem;
+               padding-top: 2rem;
+               padding-bottom: 2rem;
+               width: 100%;
+               margin-bottom: 2rem;
+               background-color: #333;
+               /* justify-content: space-between; */
+               /* gap: 5rem; */
+          }
+          .gambar3 {
+            /* display: flex; */
+            border-radius: 1rem;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            width: 100%;
+            margin-bottom: 2rem;
+            background-color: #333;
+            /* justify-content: space-between; */
+            gap: 5rem;
+       }
+          .gambar-content2 {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 1rem;
+            margin-left: 1rem;
+            width: 90%;
+            margin-right: 1rem;
+            height: 24rem;
+          }
+          /* .gambar-atas {
+              display: flex;
+              justify-content: space-between;
+          } */
+          .gambar-contentsatu {
+            width: 98%;
+              margin-top: 2rem;
+              margin-bottom: 4rem;
+              border-radius: 1rem;
+              justify-content: center;
+              display: flex;
+              height: 26rem;
+          }
+          .gambar-content3 {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 1rem;
+            margin-left: 1rem;
+            width: 90%;
+            margin-right: 1rem;
+            height: 24rem;
+        }
+        .gambar-content4 {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 1rem;
+            margin-left: 1rem;
+            width: 90%;
+            margin-right: 1rem;
+            height: 24rem;
+        }
+          .h2-content2 {
+              display: flex;
+              padding-bottom: 3rem;
+              font-size: 0.8rem;
+              font-family: Arial, Helvetica, sans-serif;
+              justify-content: center;
+          }
+          .parag1 {
+              font-weight: bold;
+              margin-left: 2rem;
+          }
+          .konten1 {
+              background-color:#808D7C;
+              padding: 2rem;
+              margin-top: 8rem;
+              width: 80%;
+              border-radius: 2rem;
+              margin-left: 1rem;
+              /* margin-right: 2rem; */
+              
+          }
+          .paragraf-content1 {
+              font-size: 100%;
+              margin-top: 0.2rem;
+              width: 98%;
+              color: black;
+              font-family: Arial, Helvetica, sans-serif;
+              padding-bottom: 0.2rem;
+          }
+          .gambar-content1 {
+              width: 98%;
+              margin-top: 2rem;
+              margin-bottom: 4rem;
+              border-radius: 1rem;
+              justify-content: center;
+              display: flex;
+              height: 26rem;
+            }
+          .icon-navbar {
+              display: flex;
+              justify-content: flex-end;
+          }
+          .h1 {
+              font-family: "Sofadi One", system-ui;
+              margin-left: 0.5em;
+              font-size: 1.8rem;
+              color: white;
+              
+          }
+          .navbar {
+              background-color: black; 
+              display: flex;
+              height: 2rem;
+              padding-top: 3rem;
+              width: 100%;
+              gap: 4rem;
+              align-items: center;
+              padding-bottom: 2rem;
+              margin-top: 0.5rem;
+              justify-content: space-between;
+          }
+          .wa {
+              width: 3rem;
+              border-radius: 50%;
+              height: 3rem;
+              margin-right: 2rem;
+              margin-bottom: 1rem;
+          }
+          .fb {
+             width: 3rem;
+              border-radius: 50%;
+              height: 3rem;
+              margin-right: 3rem;
+              margin-bottom: 1rem;
+          }
+          /* .wa:hover {
+              width: 2.9em;
+              height: 2.9em;
+          }
+          .fb:hover {
+              width: 2.5em;
+              height: 2.5em;
+          } */
+          .notif {
+              display: none;
+              background-color: forestgreen;
+              font-weight:bolder ;
+              margin-top: 1rem;
+              padding-top: 1rem;
+              width: 10rem;
+              padding-left: 2vh;
+              border-radius: 3vh;
+              height: 2rem;
+          }
+          .row-navbar {
+            width: 100%;
+          }
+          .footer{
+              background-color: #808D7C;
+              margin-top: 6rem;
+              padding-bottom: 2rem;
+              margin-left: 1rem ;
+             
+              width: 93%;
+              padding-top: 1rem;
+              border-radius: 1rem;
+              margin-bottom: 2rem;
+          }
+          .span-footer {
+              margin-left: 1rem;
+          }
+          .p-footer {
+              margin-left: 1rem;
+              font-family: Arial, Helvetica, sans-serif;
+              font-weight: 500;
+              font-size: 1.1rem;
+              margin-right: 2rem;
+              width: 90%;
+          }
+          .h2-footer {
+              margin-left: 1rem;
+              font-size: 1rem;
+          } 
+          .overROW {
+              width: 70%;
+          }
+          .overROWh2 {
+              width: 70%;
+              
+          }
+          .wa-footer {
+              width: 3rem;
+              margin-left: 0.2rem;
+              height: 3rem;
+              border-radius: 50%;
+              
+          }
+          .fb-footer {
+            width: 3rem;
+            height: 3rem;
+            margin-left: 0.1rem;
+            border-radius: 50%;
+          }
+          /* .wa-footer:hover {
+              width: 1em;
+              height: 1em;
+          }
+          .fb-footer:hover {
+              width: 2.5em;
+              height: 2.5em;
+          } */
+          .back-footer {
+              background-color:   #617C58;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              gap: 2rem;
+              height: 3rem;
+              border-radius: 1rem;
+              margin-right: 1rem;
+              margin-left: 1rem;
+          }
+          .cp {
+              display: flex;
+              justify-content: center;
+              padding-top: 1rem;
+              font-size: 0.9rem;
+              font-weight: bolder;
+          }
+        }
+    
+/*mobile kecil potrait  */
+
+@media screen and (min-width: 120px) and (max-width: 349px) {
+    body {
+        background-color: #9CA986;
+        padding: 0;
+        width: 100%;
+        margin: 0;
+      }
+      html {
+        width: 100%;
+      }
+      .paragraf2-content1 {
+        font-size: 100%;
+        width: 98%;
+        margin-top: 2rem;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 2rem;
+    }
+    .span-paragraf2-content1 {
+        margin-left: 1rem;
+    }
+      .konten2 {
+        background-color:#808D7C;
+        padding: 2rem;
+        margin-top: 8rem;
+        width: 68%;
+        border-radius: 2rem;
+        margin-left: 1rem;
+        margin-right: 2rem;
+    }
+      .span-gambar1 {
+          padding-left: 1rem;
+          font-weight: bolder;
+      }
+      .span-gambar2 {
+          padding-left: 1rem;
+          font-weight: bolder;
+      }
+      .span2-gambar1 {
+          padding-left: 1rem;
+      }
+      .paragraf-content2 {
+          width: 85%;
+          font-size: 0.7rem;
+          margin-left: 1rem;
+          color: white;
+          padding-top: 0.5rem;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 700;
+      }
+      .paragraf2-content2 {
+        width: 85%;
+        font-size: 0.7rem;
+        margin-left: 1rem;
+        color: white;
+        padding-top: 0.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+      }
+      .paragraf2-content4 {
+        width: 85%;
+        font-size: 0.7rem;
+        margin-left: 1rem;
+        color: white;
+        padding-top: 0.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+      }
+      .span2-gambar2 {
+          padding-left: 1rem;
+      }
+      .span2-gambar3 {
+          padding-left: 1rem;
+      }
+      .span-gambar3 {
+          padding-left: 1rem;
+          font-weight: bolder;
+      }
+      .paragraf2-content3 {
+        width: 85%;
+        font-size: 0.7rem;
+        margin-left: 1rem;
+        color: white;
+        padding-top: 0.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+      }
+      .paragraf-content3 {
+        width: 85%;
+          font-size: 0.7rem;
+          margin-left: 1rem;
+          color: white;
+          padding-top: 0.5rem;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 700;
+    }
+    .paragraf-content4 {
+        width: 85%;
+        font-size: 0.7rem;
+        margin-left: 1rem;
+        color: white;
+        padding-top: 0.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+    }
+      .gambar1 {
+          /* display: flex; */
+          border-radius: 0.5rem;
+          padding-top: 3rem;
+          padding-bottom: 2rem;
+          width: 100%;
+          margin-bottom: 2rem;
+          background-color: #333;
+         /* justify-content: space-between; */
+          
+      }
+      .gambar2 {
+           /* display: flex; */
+          border-radius: 0.5rem;
+          padding-top: 3rem;
+          padding-bottom: 1rem; 
+          margin-bottom: 2rem;
+          width: 100%;
+          background-color: #333;
+           /* justify-content: space-between; */
+           /* gap: 5rem; */
+      }
+      .gambar3 {
+        /* display: flex; */
+        border-radius: 0.5rem;
+          padding-top: 3rem;
+          padding-bottom: 2rem;
+          width: 100%;
+          background-color: #333;
+        /* justify-content: space-between; */
+        /* gap: 5rem; */
+   }
+      .gambar-content2 {
+          width: 92%;
+          margin-top: 0.3rem;
+          margin-bottom: 2rem;
+          border-radius: 1rem;
+          margin-left: 0.5rem;
+          justify-content: center;
+          display: flex;
+          height: 13rem;
+      }
+      /* .gambar-atas {
+          display: flex;
+          justify-content: space-between;
+      } */
+      .gambar-contentsatu {
+        width: 100%;
+          margin-top: 2rem;
+          margin-bottom: 4rem;
+          border-radius: 1rem;
+          justify-content: center;
+          display: flex;
+          height: 13rem;
+      }
+      .gambar-content3 {
+        width: 92%;
+          margin-top: 0.3rem;
+          margin-bottom: 2rem;
+          border-radius: 1rem;
+          margin-left: 0.5rem;
+          justify-content: center;
+          display: flex;
+          height: 13rem;
+    }
+    .gambar-content4 {
+        width: 92%;
+        margin-top: 0.3rem;
+        margin-bottom: 2rem;
+        border-radius: 1rem;
+        margin-left: 0.5rem;
+        justify-content: center;
+        display: flex;
+        height: 13rem;
+    }
+      .h2-content2 {
+          display: flex;
+          padding-bottom: 3rem;
+          font-size: 0.5rem;
+          font-family: Arial, Helvetica, sans-serif;
+          justify-content: center;
+      }
+      .parag1 {
+          font-weight: bold;
+          margin-left: 2rem;
+      }
+      .konten1 {
+          background-color:#808D7C;
+          padding: 2rem;
+          margin-top: 8rem;
+          width: 68%;
+          border-radius: 1.5rem;
+          margin-left: 1rem;
+          margin-right: 2rem;
+          
+      }
+      .paragraf-content1 {
+          font-size: 100%;
+          margin-top: 0.2rem;
+          width: 14rem; 
+          color: black;
+          font-family: Arial, Helvetica, sans-serif;
+          padding-bottom: 0.2rem;
+      }
+      .gambar-content1 {
+          width: 100%;
+          margin-top: 2rem;
+          margin-bottom: 4rem;
+          border-radius: 1rem;
+          justify-content: center;
+          display: flex;
+          height: 13rem;
+        }
+      .icon-navbar {
+          display: flex;
+          justify-content: flex-end;
+      }
+      .h1 {
+          font-family: "Sofadi One", system-ui;
+          margin-left: 0.5em;
+          font-size: 1.2rem;
+          color: white;
+          
+      }
+      .navbar {
+          background-color: black; 
+          display: flex;
+          height: 2rem;
+          padding-top: 2rem;
+          width: 100%;
+          gap: 18%;
+          align-items: center;
+          padding-bottom: 2rem;
+          margin-top: 0.5rem;
+          justify-content: space-between;
+      }
+      .wa {
+          width: 2.8rem;
+          border-radius: 50%;
+          height: 2.8rem;
+          display: flex;
+         
+          margin-right: 1rem;
+          margin-bottom: 1rem;
+      }
+      .fb {
+         width: 2.8rem;
+          border-radius: 50%;
+          height: 2.8rem;
+          display: flex;
+          margin-right: 3rem;
+          margin-bottom: 1rem;
+      }
+      /* .wa:hover {
+          width: 2.5em;
+          height: 2.5em;
+      }
+      .fb:hover {
+          width: 2.5em;
+          height: 2.5em;
+      } */
+      .notif {
+          display: none;
+          background-color: forestgreen;
+          font-weight:bolder ;
+          margin-top: 1rem;
+          padding-top: 1rem;
+          width: 10rem;
+          padding-left: 2vh;
+          border-radius: 3vh;
+          height: 2rem;
+      }
+      .row-navbar {
+        width: 100%;
+      }
+      .footer{
+          background-color: #808D7C;
+          margin-top: 4rem;
+          padding-bottom: 2rem;
+          margin-left: 1rem ;
+          margin-right: 1rem;
+          width: 90%;
+          padding-top: 1rem;
+          border-radius: 1rem;
+          margin-bottom: 2rem;
+      }
+      .span-footer {
+          margin-left: 1rem;
+      }
+      .p-footer {
+          margin-left: 1rem;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 700;
+          font-size: 0.8rem;
+          margin-right: 2rem;
+          width: 90%;
+      }
+      .h2-footer {
+          margin-left: 0.5rem;
+          font-size: 75%;
+      } 
+      .overROW {
+          width: 70%;
+      }
+      .overROWh2 {
+          width: 70%;
+          
+      }
+      .wa-footer {
+          width: 2rem;
+          margin-left: 0.1rem;
+          height: 2rem;
+          border-radius: 50%;
+          
+      }
+      .fb-footer {
+        width: 2rem;
+        height: 2rem;
+        margin-left: 0.1rem;
+        border-radius: 50%;
+      }
+      /* .wa-footer:hover {
+          width: 1em;
+          height: 1em;
+      }
+      .fb-footer:hover {
+          width: 2.5em;
+          height: 2.5em;
+      } */
+      .back-footer {
+          background-color:   #617C58;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 2rem;
+          height: 3rem;
+          border-radius: 1rem;
+          margin-right: 1rem;
+          margin-left: 1rem;
+      }
+      .cp {
+          display: flex;
+          justify-content: center;
+          padding-top: 1rem;
+          font-size: 0.7rem;
+          font-weight: bolder;
+      }
+    }
