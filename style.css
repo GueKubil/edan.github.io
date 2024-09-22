@@ -561,7 +561,8 @@
           height: 2.5em;
       }
       .notif {
-          display: none;
+          visibility: hidden;
+          opacity:0 ;
           background-color: forestgreen;
           font-weight:bolder ;
           margin-top: 1rem;
@@ -916,7 +917,8 @@
           height: 2.5em;
       } */
       .notif {
-          display: none;
+          visibility: hidden;
+          opacity:0 ;
           background-color: forestgreen;
           font-weight:bolder ;
           margin-top: 1rem;
@@ -1277,7 +1279,8 @@
           height: 2.5em;
       }
       .notif {
-          display: none;
+          visibility: hidden;
+          opacity:0 ;
           background-color: forestgreen;
           font-weight:bolder ;
           margin-top: 1rem;
@@ -1640,7 +1643,8 @@
               height: 2.5em;
           } */
           .notif {
-              display: none;
+              visibility: hidden;
+              opacity:0 ;
               background-color: forestgreen;
               font-weight:bolder ;
               margin-top: 1rem;
@@ -2008,7 +2012,8 @@
           height: 2.5em;
       } */
       .notif {
-          display: none;
+          visibility: hidden;
+          opacity:0 ;
           background-color: forestgreen;
           font-weight:bolder ;
           margin-top: 1rem;
