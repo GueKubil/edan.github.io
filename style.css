@@ -1,11 +1,59 @@
 /* Desktop besar (lebih besar dari 1280px) */
- /* @media only screen and (min-width: 1281px) {
+  @media only screen and (min-width: 1281px) {
     body {
       background-color: #9CA986;
       padding: 0;
       margin: 0;
       width: 100%;
     }
+    .display-gambar1 {
+        visibility: hidden;
+        opacity: 0;
+        background-color: azure;
+        color: #333;
+        width: 50%;
+        display: flex;
+        font-weight: bold;
+        margin: 1rem;
+        border-radius: 0.3rem;
+        justify-content: center;
+    }
+      .display-gambar2 {
+        visibility: hidden;
+        opacity: 0;
+        background-color: azure;
+        color: #333;
+        width: 50%;
+        display: flex;
+        font-weight: bold;
+        margin: 1rem;
+        border-radius: 0.3rem;
+        justify-content: center;
+    }
+    .display-gambar3 {
+        visibility: hidden;
+        opacity: 0;
+        background-color: azure;
+        color: #333;
+        width: 50%;
+        display: flex;
+        font-weight: bold;
+        margin: 1rem;
+        border-radius: 0.3rem;
+        justify-content: center;
+    }
+      .back-animasi {
+        opacity: 0;
+        transition: opacity 1s;
+        background-color: aliceblue;
+        color: #333;
+        width: 75%;
+        border-radius: 1rem;
+        margin-left: 10%;
+        font-weight: bolder;
+        margin-top: 3rem;
+        font-size: 1.5rem;
+      }
     .paragraf2-content1 {
         font-size: 3vh;
         margin-top: 2rem;
@@ -39,7 +87,7 @@
     }
     .paragraf-content2 {
         width: 100vh;
-        font-size: 200;
+        font-size: 1.5rem;
         margin-right: 5rem;
         color: white;
         padding-top: 2rem;
@@ -49,7 +97,7 @@
     .paragraf2-content2 {
         width: 100vh;
         padding-top: 2rem;
-        font-size: 200;
+        font-size: 1.5rem;
         margin-right: 5rem;
         color: white;
         font-family: Arial, Helvetica, sans-serif;
@@ -58,7 +106,7 @@
     .paragraf2-content4 {
         width: 100vh;
         padding-top: 2rem;
-        font-size: 200;
+        font-size: 1.5rem;
         margin-right: 5rem;
         color: white;
         font-family: Arial, Helvetica, sans-serif;
@@ -77,7 +125,7 @@
     .paragraf2-content3 {
         width: 100vh;
         padding-top: 2rem;
-        font-size: 200;
+        font-size: 1.5rem;
         margin-right: 5rem;
         color: white;
         font-family: Arial, Helvetica, sans-serif;
@@ -85,7 +133,8 @@
     }
     .paragraf-content3 {
         width: 100vh;
-        margin-right: 5rem;
+        font-size: 1.5rem;
+        margin-right: 1.5rem;
         color: white;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 500;
@@ -94,6 +143,7 @@
         width: 100vh;
         margin-right: 5rem;
         color: white;
+        font-size: 1.5rem;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 500;
     }
@@ -105,8 +155,10 @@
         margin-left: 4rem;
         margin-right: 4rem;
         background-color: #333;
+        align-items: center;
         justify-content: space-between;
         gap: 5rem;
+        margin-bottom: 8rem;
     }
     .gambar2 {
         display: flex;
@@ -114,12 +166,13 @@
         padding-top: 3rem;
         margin-left: 4rem;
         padding-bottom: 2rem;
-        margin-top: 5rem;
+        margin-top: 1rem;
         margin-right: 4rem;
         background-color: #333;
         justify-content: space-between;
         align-items: center;
         gap: 5rem;
+        margin-bottom: 8rem;
     }
     .gambar3 {
         display: flex;
@@ -127,7 +180,7 @@
         padding-top: 3rem;
         margin-left: 4rem;
         padding-bottom: 2rem;
-        margin-top: 5rem;
+        margin-top: 1rem;
         margin-right: 4rem;
         background-color: #333;
         justify-content: space-between;
@@ -136,7 +189,7 @@
     }
     .gambar-content2 {
         width: 40rem;
-        height: 20rem;
+        height: 45rem;
         padding: 2rem;
         margin-left: 2rem;
         border-radius: 4rem;
@@ -146,21 +199,21 @@
         justify-content: space-between;
     }
     .gambar-contentsatu {
-        width: 35rem;
+        width: 45rem;
         border-radius: 10vh;
-        height: 35rem;
+        height: 50rem;
         margin-top: 2rem;
     }
     .gambar-content3 {
-        width: 20rem;
-        height: 20rem;
+        width: 40rem;
+        height: 45rem;
         padding: 2rem;
         margin-left: 2rem;
         border-radius: 4rem;
     }
     .gambar-content4 {
-        width: 20rem;
-        height: 20rem;
+        width: 40rem;
+        height: 45rem;
         padding: 2rem;
         margin-left: 2rem;
         border-radius: 4rem;
@@ -178,7 +231,7 @@
     .konten1 {
         background-color:#808D7C;
         padding: 2rem;
-        width: 900rem;
+        width: 93%;
         margin-top: 8rem;
         border-radius: 5rem;
         margin-left: 2rem;
@@ -192,10 +245,10 @@
         padding-bottom: 2rem;
     }
     .gambar-content1 {
-        width: 35rem;
+        width: 45rem;
         margin-top: 2rem;
         border-radius: 10vh;
-        height: 35rem;
+        height: 50rem;
     }
     .icon-navbar {
         display: flex;
@@ -204,34 +257,36 @@
     .h1 {
         font-family: "Sofadi One", system-ui;
         margin-left: 1em;
+        font-size: 2rem;
         color: white;
     }
     .navbar {
         background-color: black; 
         display: flex;
         margin-top: 0.5rem;
+        align-items: center;
         justify-content: space-between;
     }
     .wa {
-        width: 3rem;
+        width: 5rem;
         padding: 1rem;
         border-radius: 50%;
-        height: 3rem;
+        height: 5rem;
     }
     .fb {
-        width: 3rem;
+        width: 5rem;
         padding: 1rem;
         border-radius: 50%;
-        height: 3rem;
+        height: 5rem;
         margin-right: 1em;
     }
     .wa:hover {
-        width: 2.5em;
-        height: 2.5em;
+        width: 4.5rem;
+        height: 4.5rem;
     }
     .fb:hover {
-        width: 2.5em;
-        height: 2.5em;
+        width: 4.5rem;
+        height: 4.5rem;
     }
     .notif {
         display: none;
@@ -262,10 +317,12 @@
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 500;
         margin-right: 2rem;
+        font-size: 1.5rem;
         
     }
     .h2-footer {
         margin-left: 2rem;
+        font-size: 1.5rem;
        
     }
     .overROW {
@@ -276,23 +333,23 @@
         
     }
     .wa-footer {
-        width: 3rem;
-        height: 3rem;
+        width: 4rem;
+        height: 4rem;
         border-radius: 50%;
         
     }
     .fb-footer {
-        width: 3rem;
+        width: 4rem;
         border-radius: 50%;
-        height: 3rem;
+        height: 4rem;
     }
     .wa-footer:hover {
-        width: 2.5em;
-        height: 2.5em;
+        width: 3.5rem;
+        height: 3.5rem;
     }
     .fb-footer:hover {
-        width: 2.5em;
-        height: 2.5em;
+        width: 3.5rem;
+        height: 3.5rem;
     }
     .back-footer {
         background-color:   #617C58;
@@ -310,16 +367,52 @@
         padding-top: 1rem;
         font-weight: bolder;
     }
-  }  */
+  }  
   
   /* Laptop kecil atau tablet landscape (max-width: 1280px) */
-  @media only screen and (min-width: 1025px) {
+  @media only screen and (min-width: 1025px) and (max-width:1280px) {
     body {
         background-color: #9CA986;
         padding: 0;
         margin: 0;
         width: 100%;
       }
+      .display-gambar1 {
+        visibility: hidden;
+        opacity: 0;
+        background-color: azure;
+        color: #333;
+        width: 50%;
+        display: flex;
+        font-weight: bold;
+        margin: 1rem;
+        border-radius: 0.3rem;
+        justify-content: center;
+    }
+      .display-gambar2 {
+        visibility: hidden;
+        opacity: 0;
+        background-color: azure;
+        color: #333;
+        width: 50%;
+        display: flex;
+        font-weight: bold;
+        margin: 1rem;
+        border-radius: 0.3rem;
+        justify-content: center;
+    }
+    .display-gambar3 {
+        visibility: hidden;
+        opacity: 0;
+        background-color: azure;
+        color: #333;
+        width: 50%;
+        display: flex;
+        font-weight: bold;
+        margin: 1rem;
+        border-radius: 0.3rem;
+        justify-content: center;
+    }
       .back-animasi {
         opacity: 0;
         transition: opacity 1s;
@@ -429,18 +522,21 @@
           padding-top: 3rem;
           padding-bottom: 2rem;
           margin-left: 4rem;
+          align-items: center;
           margin-right: 4rem;
+          margin-bottom: 8rem;
           background-color: #333;
           justify-content: space-between;
           gap: 5rem;
       }
       .gambar2 {
           display: flex;
+          margin-bottom: 8rem;
           border-radius: 2rem;
           padding-top: 3rem;
           margin-left: 4rem;
           padding-bottom: 2rem;
-          margin-top: 5rem;
+          margin-top: 1rem;
           margin-right: 4rem;
           background-color: #333;
           justify-content: space-between;
@@ -453,7 +549,6 @@
           padding-top: 3rem;
           margin-left: 4rem;
           padding-bottom: 2rem;
-          margin-top: 5rem;
           margin-right: 4rem;
           background-color: #333;
           justify-content: space-between;
@@ -653,6 +748,42 @@
         width: 100%;
         margin: 0;
       }
+      .display-gambar1 {
+        visibility: hidden;
+        opacity: 0;
+        background-color: azure;
+        color: #333;
+        width: 95%;
+        display: flex;
+        font-weight: bold;
+        margin: 1rem;
+        border-radius: 0.3rem;
+        justify-content: center;
+    }
+      .display-gambar2 {
+        visibility: hidden;
+        opacity: 0;
+        background-color: azure;
+        color: #333;
+        width: 95%;
+        display: flex;
+        font-weight: bold;
+        margin: 1rem;
+        border-radius: 0.3rem;
+        justify-content: center;
+    }
+    .display-gambar3 {
+        visibility: hidden;
+        opacity: 0;
+        background-color: azure;
+        color: #333;
+        width: 95%;
+        display: flex;
+        font-weight: bold;
+        margin: 1rem;
+        border-radius: 0.3rem;
+        justify-content: center;
+    }
       .back-animasi {
         opacity: 0;
         transition: opacity 1s;
@@ -767,7 +898,7 @@
           padding-top: 2rem;
           padding-bottom: 2rem;
           width: 100%;
-          margin-bottom: 2rem;
+          margin-bottom: 5rem;
           background-color: #333;
          /* justify-content: space-between; */
           
@@ -778,7 +909,7 @@
            padding-top: 2rem;
            padding-bottom: 2rem;
            width: 100%;
-           margin-bottom: 2rem;
+           margin-bottom: 5rem;
            background-color: #333;
            /* justify-content: space-between; */
            /* gap: 5rem; */
@@ -1011,6 +1142,42 @@
         width: 100%;
         margin: 0;
       }
+      .display-gambar1 {
+        visibility: hidden;
+        opacity: 0;
+        background-color: azure;
+        color: #333;
+        width: 95%;
+        display: flex;
+        font-weight: bold;
+        margin: 1rem;
+        border-radius: 0.3rem;
+        justify-content: center;
+    }
+      .display-gambar2 {
+        visibility: hidden;
+        opacity: 0;
+        background-color: azure;
+        color: #333;
+        width: 95%;
+        display: flex;
+        font-weight: bold;
+        margin: 1rem;
+        border-radius: 0.3rem;
+        justify-content: center;
+    }
+    .display-gambar3 {
+        visibility: hidden;
+        opacity: 0;
+        background-color: azure;
+        color: #333;
+        width: 95%;
+        display: flex;
+        font-weight: bold;
+        margin: 1rem;
+        border-radius: 0.3rem;
+        justify-content: center;
+    }
       .back-animasi {
         background-color: aliceblue;
         color: #333;
@@ -1128,7 +1295,7 @@
           padding-top: 3rem;
           padding-bottom: 2rem;
           width: 100%;
-          margin-bottom: 2rem;
+          margin-bottom: 5rem;
           background-color: #333;
          /* justify-content: space-between; */
           
@@ -1139,7 +1306,7 @@
            padding-top: 2rem;
            padding-bottom: 2rem;
            width: 100%;
-           margin-bottom: 2rem;
+           margin-bottom: 5rem;
            background-color: #333;
            /* justify-content: space-between; */
            /* gap: 5rem; */
@@ -1242,7 +1409,7 @@
           margin-left: 0.5em;
           font-size: 1.5rem;
           color: white;
-          
+         
       }
       .navbar {
           background-color: black; 
@@ -1250,7 +1417,6 @@
           height: 1rem;
           padding-top: 3rem;
           width: 100%;
-          gap: 5.5rem;
           align-items: center;
           padding-bottom: 2rem;
           margin-top: 0.5rem;
@@ -1264,10 +1430,10 @@
           margin-bottom: 1rem;
       }
       .fb {
-         width: 3rem;
+          width: 3rem;
           border-radius: 50%;
           height:3rem;
-          margin-right: 3rem;
+          margin-right: 2rem;
           margin-bottom: 1rem;
       }
       .wa:hover {
@@ -1377,6 +1543,42 @@
             width: 100%;
             margin: 0;
           }
+          .display-gambar1 {
+            visibility: hidden;
+            opacity: 0;
+            background-color: azure;
+            color: #333;
+            width: 95%;
+            display: flex;
+            font-weight: bold;
+            margin: 1rem;
+            border-radius: 0.3rem;
+            justify-content: center;
+        }
+          .display-gambar2 {
+            visibility: hidden;
+            opacity: 0;
+            background-color: azure;
+            color: #333;
+            width: 95%;
+            display: flex;
+            font-weight: bold;
+            margin: 1rem;
+            border-radius: 0.3rem;
+            justify-content: center;
+        }
+        .display-gambar3 {
+            visibility: hidden;
+            opacity: 0;
+            background-color: azure;
+            color: #333;
+            width: 95%;
+            display: flex;
+            font-weight: bold;
+            margin: 1rem;
+            border-radius: 0.3rem;
+            justify-content: center;
+        }
           .back-animasi {
             opacity: 0;
             transition: opacity 1s;
@@ -1492,7 +1694,7 @@
               padding-top: 2rem;
               padding-bottom: 2rem;
               width: 100%;
-              margin-bottom: 2rem;
+              margin-bottom: 5rem;
               background-color: #333;
              /* justify-content: space-between; */
               
@@ -1503,7 +1705,7 @@
                padding-top: 2rem;
                padding-bottom: 2rem;
                width: 100%;
-               margin-bottom: 2rem;
+               margin-bottom: 5rem;
                background-color: #333;
                /* justify-content: space-between; */
                /* gap: 5rem; */
@@ -1614,7 +1816,7 @@
               height: 2rem;
               padding-top: 3rem;
               width: 100%;
-              gap: 4rem;
+              gap: 2rem;
               align-items: center;
               padding-bottom: 2rem;
               margin-top: 0.5rem;
@@ -1740,6 +1942,42 @@
         width: 100%;
         margin: 0;
       }
+      .display-gambar1 {
+        visibility: hidden;
+        opacity: 0;
+        background-color: azure;
+        color: #333;
+        width: 95%;
+        display: flex;
+        font-weight: bold;
+        margin: 1rem;
+        border-radius: 0.3rem;
+        justify-content: center;
+    }
+      .display-gambar2 {
+        visibility: hidden;
+        opacity: 0;
+        background-color: azure;
+        color: #333;
+        width: 95%;
+        display: flex;
+        font-weight: bold;
+        margin: 1rem;
+        border-radius: 0.3rem;
+        justify-content: center;
+    }
+    .display-gambar3 {
+        visibility: hidden;
+        opacity: 0;
+        background-color: azure;
+        color: #333;
+        width: 95%;
+        display: flex;
+        font-weight: bold;
+        margin: 1rem;
+        border-radius: 0.3rem;
+        justify-content: center;
+    }
       .back-animasi {
         opacity: 0;
         transition: opacity 1s;
@@ -1856,7 +2094,7 @@
           padding-top: 3rem;
           padding-bottom: 2rem;
           width: 100%;
-          margin-bottom: 2rem;
+          margin-bottom: 5rem;
           background-color: #333;
          /* justify-content: space-between; */
           
@@ -1866,7 +2104,7 @@
           border-radius: 0.5rem;
           padding-top: 3rem;
           padding-bottom: 1rem; 
-          margin-bottom: 2rem;
+          margin-bottom: 5rem;
           width: 100%;
           background-color: #333;
            /* justify-content: space-between; */
@@ -1970,17 +2208,17 @@
       .h1 {
           font-family: "Sofadi One", system-ui;
           margin-left: 0.5em;
-          font-size: 1.2rem;
+          font-size: 1rem;
           color: white;
           
       }
       .navbar {
           background-color: black; 
           display: flex;
-          height: 2rem;
+          height: 1.5rem;
           padding-top: 2rem;
           width: 100%;
-          gap: 18%;
+          /* gap: 1rem; */
           align-items: center;
           padding-bottom: 2rem;
           margin-top: 0.5rem;
@@ -1991,16 +2229,15 @@
           border-radius: 50%;
           height: 2.8rem;
           display: flex;
-         
           margin-right: 1rem;
           margin-bottom: 1rem;
       }
       .fb {
-         width: 2.8rem;
+          width: 2.8rem;
           border-radius: 50%;
           height: 2.8rem;
           display: flex;
-          margin-right: 3rem;
+          margin-right: 2rem;
           margin-bottom: 1rem;
       }
       /* .wa:hover {
