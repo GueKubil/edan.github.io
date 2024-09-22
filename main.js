@@ -1,35 +1,45 @@
-// ANIMASI HOVER PADA ICON NAVBAR
-document.addEventListener("DOMContentLoaded", function() {
-    const notif = document.getElementById('notif');
-    const wa = document.getElementById('wa');
-    const fb = document.getElementById('fb');
-    
-   wa.addEventListener('mouseover', function() { // visible
-        notif.style.visibility = 'visible';
-        notif.style.transition = '0.5s';
-        notif.style.opacity = '1';
-    });
-    
-    wa.addEventListener('mouseout', function() { // hide
-       notif.style.visibility = 'hidden';
-       notif.style.transition = '1s';
-       notif.style.opacity = '0';
-    });
+// FUNGSI ANIMASI WHATSAPP 
+function WhatApp() {
+  const WA = document.getElementById('wa');
+  const notif = document.getElementById('notif');
 
-    fb.addEventListener('mouseover', function() { // hide
-        notif.style.visibility = 'visible';
-        notif.style.transition = '0.5s';
-        notif.style.opacity = '1';
-           
-    fb.addEventListener('mouseout', function() { // visible
-         notif.style.visibility = 'hidden';
-         notif.style.transition = '1s';
-         notif.style.opacity = '0';
-        });
-    });
-  });
+  const notif_show = () => {
+    notif.style.visibility = 'visible';
+    notif.style.opacity = '1';
+    notif.style.transition = '0.5s';
+  };
+  WA.addEventListener('mouseover', notif_show);
 
-  // HIDDEN ANIMASI SEBELUM KONTEN2
+  const notif_hide = () => {
+    notif.style.visibility = 'hidden';
+    notif.style.opacity = '0';
+    notif.style.transition = '0.5s';
+  };
+  WA.addEventListener('mouseout', notif_hide);
+};
+WhatApp();
+
+//FUNGSI ANIMASI FACEBOOK
+function FaceBook() {
+  const fb = document.getElementById('fb');
+
+  const notif_show = () => {
+    document.getElementById('notif').style.opacity = '1';
+    document.getElementById('notif').style.transition = '0.5s';
+    document.getElementById('notif').style.visibility = 'visible';  
+  }
+  fb.addEventListener('mouseover', notif_show);
+
+  const notif_hide = () => {
+    document.getElementById('notif').style.opacity = '0';
+    document.getElementById('notif').style.transition = '0.5s';
+    document.getElementById('notif').style.visibility = 'hidden';  
+  };
+  fb.addEventListener('mouseout', notif_hide);
+};
+FaceBook();
+
+  // FUNCTION ANIMASI DISPLAY SEBELUM KONTEN2
 function backAnimasi() {
     const back_animasi = document.getElementById('back-animasi');
     var scrollPosition = window.scrollY || document.documentElement.scrollTop;
@@ -48,11 +58,12 @@ function backAnimasi() {
   }
 window.addEventListener("scroll", backAnimasi);
 
-// fungsi animasi gambar1
+
+// FUNCTION ANIMASI GAMBAR1
 function gambar1() {
   const Animasi_gambar1 = document.getElementById('display-gambar1');  // CLASS GAMBAR1
-  const scrollPosition = window.scrollY || document.documentElement.scrollTop;
-  const documentHeight = document.documentElement.scrollHeight - window.innerHeight;
+  const scrollPosition = window.scrollY || document.documentElement.scrollTop; // INISIALISASI POSISI SCROLL
+  const documentHeight = document.documentElement.scrollHeight - window.innerHeight; // RUMUS SCROLL
 
   if((scrollPosition / documentHeight) >= 0.40 && (scrollPosition / documentHeight) <= 0.54) {
     Animasi_gambar1.style.visibility = 'visible'
@@ -65,10 +76,10 @@ function gambar1() {
     Animasi_gambar1.style.opacity = '0'
   }
 }
-
 window.addEventListener("scroll", gambar1)
 
-// funsgi gambar2 
+
+// FUNCTION ANIMASI GAMBAR2
 function gambar2 () {
   const Animasi_gambar2 = document.getElementById('display-gambar2');
   const scroll = window.scrollY || document.documentElement.scrollTop;
@@ -87,7 +98,8 @@ function gambar2 () {
 }
 window.addEventListener('scroll', gambar2);
 
-// animasi gambar3
+
+// FUNCTION ANIMASI GAMBAR3
 function gambar3() {
   const Animasi_gambar3 = document.getElementById('display-gambar3');
   const scroll = window.scrollY || document.documentElement.scrollTop;
