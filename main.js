@@ -4,18 +4,18 @@ function like() {
   let likeCount = document.getElementById('angkalike1');
 
   let storedcount = parseInt(localStorage.getItem('likeCount'));
-  if(storedcount !== null && storedcount !== isNaN ? parseInt(storedcount) : 0)
+  let count = storedcount !== null && !isNaN(storedcount) ? parseInt(storedcount) : 0;
 
-  likeCount.textContent = storedcount;
+  likeCount.textContent = count;
 
   if(storedcount > 50) {
     document.getElementById('emoji-like1').style.visibility = 'visible';
   };
 
   likeButton.addEventListener('click', function() {
-      storedcount++; 
-      likeCount.textContent = storedcount; 
-      localStorage.setItem(storedcount); 
+      count++; 
+      likeCount.textContent = count; 
+      localStorage.setItem(count); 
   });
 };
 like();
@@ -26,17 +26,17 @@ function like2() {
       let angka = document.getElementById('angkalike2');
 
       let count = parseInt(localStorage.getItem('angka'));
-     if(count !== null && count !== isNaN ? parseInt(count) : 0)
+      let storedCount = count !== null && !isNaN(count) ? parseInt(count) : 0;
 
-      angka.textContent = count
+      angka.textContent = storedCount
       if(count > 50) {
         document.getElementById('emoji-like2').style.visibility = 'visible'
       };
 
       like.addEventListener('click',() => {
-        count++
-        angka.textContent = count;
-        localStorage.setItem(count)
+        storedCount++
+        angka.textContent = storedCount;
+        localStorage.setItem(storedCount)
       });
 };
 like2();
@@ -48,18 +48,18 @@ function like3() {
    const like = document.getElementById('like3');
 
    let save = parseInt(localStorage.getItem('angka'));
-   if(save !== null && save != isNaN ? parseInt(save) : 0)
-  
-   angka.textContent = save;
+   let count = save !== null && !isNaN(save) ? parseInt(save) : 0;
+
+   angka.textContent = count;
 
    if(save > 50) {
     emoji.style.visibility = 'visible';
    }
 
   like.addEventListener('click',() => {
-      save++
-      angka.textContent = save;
-      localStorage.setItem(save);
+      count++
+      angka.textContent = count;
+      localStorage.setItem(count);
    });
 };
 like3();
