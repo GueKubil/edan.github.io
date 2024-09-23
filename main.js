@@ -4,18 +4,18 @@ function like() {
   let likeCount = document.getElementById('angkalike1');
 
   let storedcount = parseInt(localStorage.getItem('likeCount'));
-  let count = storedcount !== null && !isNaN(storedcount) ? parseInt(storedcount) : 0;
+  if(storedcount !== null && storedcount !== isNaN ? parseInt(storedcount) : 0)
 
-  likeCount.textContent = count;
+  likeCount.textContent = storedcount;
 
-  if(count > 50) {
+  if(storedcount > 50) {
     document.getElementById('emoji-like1').style.visibility = 'visible';
   };
 
   likeButton.addEventListener('click', function() {
-      count++; 
-      likeCount.textContent = count; 
-      localStorage.setItem('likeCount', count); 
+      storedcount++; 
+      likeCount.textContent = storedcount; 
+      localStorage.setItem(storedcount); 
   });
 };
 like();
@@ -26,15 +26,15 @@ function like2() {
       let angka = document.getElementById('angkalike2');
 
       let count = parseInt(localStorage.getItem('angka'));
-      let storedcount = count !== null && !isNaN(count) ? parseInt(count) : 0;
+     if(count !== null && count !== isNaN ? parseInt(count) : 0)
 
-      angka.textContent = storedcount
+      angka.textContent = count
       if(count > 50) {
         document.getElementById('emoji-like2').style.visibility = 'visible'
       };
 
       like.addEventListener('click',() => {
-        storedcount++
+        count++
         angka.textContent = count;
         localStorage.setItem(count)
       });
@@ -48,16 +48,16 @@ function like3() {
    const like = document.getElementById('like3');
 
    let save = parseInt(localStorage.getItem('angka'));
-   let storedcount = save !== null && !isNaN(save) ? parseInt(save) : 0;
-
-   angka.textContent = storedcount;
+   if(save !== null && save != isNaN ? parseInt(save) : 0)
+  
+   angka.textContent = save;
 
    if(save > 50) {
     emoji.style.visibility = 'visible';
    }
 
   like.addEventListener('click',() => {
-      storedcount++
+      save++
       angka.textContent = save;
       localStorage.setItem(save);
    });
