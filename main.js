@@ -1,20 +1,37 @@
+// FUNGSI IKLAN DAN OVERLAY
+function iklan() {
+  const x = document.getElementById('x-iklan');
+
+  const Hidden_overlay_iklan = () => {
+    let iklan = document.getElementById('satu-iklan');
+      iklan.style.visibility = 'hidden';
+
+    let overlay = document.getElementById('overlay');
+      overlay.style.position = 'absolute';
+      overlay.style.background = 'none';
+  }
+  x.addEventListener('click', Hidden_overlay_iklan);
+}
+iklan();
+
 // FUNGSI ANIMASI WHATSAPP 
 function WhatApp() {
   const WA = document.getElementById('wa');
   const notif = document.getElementById('notif');
-
-  const notif_show = () => {
+// FUNGSI NOTIF SHOW
+const notif_show = () => {
     notif.style.visibility = 'visible';
     notif.style.opacity = '1';
     notif.style.transition = '0.5s';
-  };
-  WA.addEventListener('mouseover', notif_show);
-
-  const notif_hide = () => {
+};
+WA.addEventListener('mouseover', notif_show);
+  
+// FUNGSI NOTIF HIDE
+const notif_hide = () => {
     notif.style.visibility = 'hidden';
     notif.style.opacity = '0';
     notif.style.transition = '0.5s';
-  };
+};
   WA.addEventListener('mouseout', notif_hide);
 };
 WhatApp();
@@ -23,6 +40,7 @@ WhatApp();
 function FaceBook() {
   const fb = document.getElementById('fb');
 
+  // FUNGSI NOTIF SHOW UNTUK FB
   const notif_show = () => {
     document.getElementById('notif').style.opacity = '1';
     document.getElementById('notif').style.transition = '0.5s';
@@ -30,6 +48,7 @@ function FaceBook() {
   }
   fb.addEventListener('mouseover', notif_show);
 
+  // FUNGSI NOTIF HIDE UNTUK FB
   const notif_hide = () => {
     document.getElementById('notif').style.opacity = '0';
     document.getElementById('notif').style.transition = '0.5s';
@@ -39,7 +58,7 @@ function FaceBook() {
 };
 FaceBook();
 
-  // FUNCTION ANIMASI DISPLAY SEBELUM KONTEN2
+// FUNCTION ANIMASI DISPLAY SEBELUM KONTEN2
 function backAnimasi() {
     const back_animasi = document.getElementById('back-animasi');
     var scrollPosition = window.scrollY || document.documentElement.scrollTop;

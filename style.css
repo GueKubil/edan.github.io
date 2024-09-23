@@ -6,6 +6,34 @@
       margin: 0;
       width: 100%;
     }
+    .overlay {
+        position: fixed; /*buat absolut di javascript */
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7); /* buat none di javascript */
+        display: block; 
+        z-index: 1; 
+    }
+    .satu-iklan {
+       visibility: visible; /* buat hidden di javascript */
+       display: flex;
+       position: fixed;
+       justify-content: center;
+       margin-top: 10rem;
+       margin-left: 30%;
+    }
+    .x-iklan {
+        color: aliceblue;
+        cursor: pointer;
+    }
+    .gambar-iklan {
+        justify-content: center;
+        width: 50rem;
+        border-radius: 2rem;
+        height: 45rem;
+      }
     .display-gambar1 {
         visibility: hidden;
         opacity: 0;
@@ -376,8 +404,36 @@
         padding: 0;
         margin: 0;
         width: 100%;
+    }
+    .overlay {
+        position: fixed; /*buat absolut di javascript */
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7); /* buat none di javascript */
+        display: block; 
+        z-index: 1; 
+    }
+    .satu-iklan {
+       visibility: visible; /* buat hidden di javascript */
+       display: flex;
+       position: fixed;
+       justify-content: center;
+       margin-top: 8rem;
+       margin-left: 30%;
+    }
+    .x-iklan {
+        color: aliceblue;
+        cursor: pointer;
+    }
+    .gambar-iklan {
+        justify-content: center;
+        width: 30rem;
+        border-radius: 2rem;
+        height: 28rem;
       }
-      .display-gambar1 {
+    .display-gambar1 {
         visibility: hidden;
         opacity: 0;
         background-color: azure;
@@ -748,6 +804,34 @@
         width: 100%;
         margin: 0;
       }
+      .overlay {
+        position: fixed; /*buat absolut di javascript */
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7); /* buat none di javascript */
+        display: block; 
+        z-index: 1; 
+    }
+    .satu-iklan {
+       visibility: visible; /* buat hidden di javascript */
+       display: flex;
+       position: fixed;
+       justify-content: center;
+       margin-top: 10rem;
+       margin-left: 20%;
+    }
+    .x-iklan {
+        color: aliceblue;
+        cursor: pointer;
+    }
+    .gambar-iklan {
+        justify-content: center;
+        width: 28rem;
+        border-radius: 2rem;
+        height: 25rem;
+      }
       .display-gambar1 {
         visibility: hidden;
         opacity: 0;
@@ -1047,7 +1131,7 @@
           width: 2.5em;
           height: 2.5em;
       } */
-      .notif {
+      /* .notif {
           visibility: hidden;
           opacity:0 ;
           background-color: forestgreen;
@@ -1058,7 +1142,7 @@
           padding-left: 2vh;
           border-radius: 3vh;
           height: 2rem;
-      }
+      } */
       .row-navbar {
         width: 100%;
       }
@@ -1141,6 +1225,34 @@
         padding: 0;
         width: 100%;
         margin: 0;
+      }
+      .overlay {
+        position: fixed; /*buat absolut di javascript */
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7); /* buat none di javascript */
+        display: block; 
+        z-index: 1; 
+    }
+    .satu-iklan {
+       visibility: visible; /* buat hidden di javascript */
+       display: flex;
+       position: fixed;
+       justify-content: center;
+       margin-top: 10rem;
+       margin-left: 5%;
+    }
+    .x-iklan {
+        color: aliceblue;
+        cursor: pointer;
+    }
+    .gambar-iklan {
+        justify-content: center;
+        width: 18rem;
+        border-radius: 2rem;
+        height: 20rem;
       }
       .display-gambar1 {
         visibility: hidden;
@@ -1444,8 +1556,8 @@
           width: 2.5em;
           height: 2.5em;
       }
-      .notif {
-          visibility: hidden;
+      /* .notif { */
+          /* visibility: hidden;
           opacity:0 ;
           background-color: forestgreen;
           font-weight:bolder ;
@@ -1455,7 +1567,7 @@
           padding-left: 2vh;
           border-radius: 3vh;
           height: 2rem;
-      }
+      } */
       .row-navbar {
         width: 100%;
       }
@@ -1542,6 +1654,34 @@
             padding: 0;
             width: 100%;
             margin: 0;
+          }
+          .overlay {
+            position: fixed; /*buat absolut di javascript */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7); /* buat none di javascript */
+            display: block; 
+            z-index: 1; 
+        }
+        .satu-iklan {
+           visibility: visible; /* buat hidden di javascript */
+           display: flex;
+           position: fixed;
+           justify-content: center;
+           margin-top: 11rem;
+           margin-left: 10%;
+        }
+        .x-iklan {
+            color: aliceblue;
+            cursor: pointer;
+        }
+        .gambar-iklan {
+            justify-content: center;
+            width: 23rem;
+            border-radius: 2rem;
+            height: 25rem;
           }
           .display-gambar1 {
             visibility: hidden;
@@ -1942,6 +2082,34 @@
         width: 100%;
         margin: 0;
       }
+      .overlay {
+        position: fixed; /*buat absolut di javascript */
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7); /* buat none di javascript */
+        display: block; 
+        z-index: 1; 
+    }
+    .satu-iklan {
+       visibility: visible; /* buat hidden di javascript */
+       display: flex;
+       position: fixed;
+       justify-content: center;
+       margin-top: 10rem;
+       margin-left: 10%;
+    }
+    .x-iklan {
+        color: aliceblue;
+        cursor: pointer;
+    }
+    .gambar-iklan {
+        justify-content: center;
+        width: 13rem;
+        border-radius: 2rem;
+        height: 15rem;
+      }
       .display-gambar1 {
         visibility: hidden;
         opacity: 0;
@@ -2240,15 +2408,15 @@
           margin-right: 2rem;
           margin-bottom: 1rem;
       }
-      /* .wa:hover {
+       .wa:hover {
           width: 2.5em;
           height: 2.5em;
       }
       .fb:hover {
           width: 2.5em;
           height: 2.5em;
-      } */
-      .notif {
+      } 
+      /* .notif {
           visibility: hidden;
           opacity:0 ;
           background-color: forestgreen;
@@ -2259,7 +2427,7 @@
           padding-left: 2vh;
           border-radius: 3vh;
           height: 2rem;
-      }
+      } */
       .row-navbar {
         width: 100%;
       }
