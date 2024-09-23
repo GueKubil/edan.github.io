@@ -1,3 +1,74 @@
+// FUNGSI LIKE1
+function like() {
+  let likeButton = document.getElementById('like1');
+  let likeCount = document.getElementById('angkalike1');
+
+  let count = parseInt(localStorage.getItem('likeCount'));
+  if (count == isNaN) {
+      count = 0;
+  };
+  likeCount.textContent = count;
+
+  if(count > 50) {
+    document.getElementById('emoji-like1').style.visibility = 'visible';
+  };
+
+  likeButton.addEventListener('click', function() {
+      count++; 
+      likeCount.textContent = count; 
+      localStorage.setItem('likeCount', count); 
+  });
+};
+like();
+
+// FUNGSI LIKE2
+function like2() {
+      let like = document.getElementById('like2');
+      let angka = document.getElementById('angkalike2');
+
+      let count = parseInt(localStorage.getItem('angka'));
+      if(count == isNaN) {
+        count = 0
+      };
+
+      angka.textContent = count
+      if(count > 50) {
+        document.getElementById('emoji-like2').style.visibility = 'visible'
+      };
+
+      like.addEventListener('click',() => {
+        count++
+        angka.textContent = count;
+        localStorage.setItem(count)
+      });
+};
+like2();
+
+// FUNGSI LIKE3
+function like3() {
+   const angka = document.getElementById('angkalike3');
+   const emoji = document.getElementById('emoji-like3');
+   const like = document.getElementById('like3');
+
+   let save = parseInt(localStorage.getItem('angka'));
+   if(save == isNaN) {
+    save = 0
+   }
+
+   angka.textContent = save;
+   if(save > 50) {
+    emoji.style.visibility = 'visible';
+   }
+
+  like.addEventListener('click',() => {
+      save++;
+      angka.textContent = save;
+      localStorage.setItem(save);
+   });
+};
+like3();
+
+
 // FUNGSI IKLAN DAN OVERLAY
 function iklan() {
   const x = document.getElementById('x-iklan');
