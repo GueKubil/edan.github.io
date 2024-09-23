@@ -34,7 +34,7 @@ function like2() {
       };
 
       like.addEventListener('click',() => {
-        count++
+        storedcount++
         angka.textContent = count;
         localStorage.setItem(count)
       });
@@ -57,7 +57,7 @@ function like3() {
    }
 
   like.addEventListener('click',() => {
-      save++;
+      storedcount++
       angka.textContent = save;
       localStorage.setItem(save);
    });
