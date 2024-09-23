@@ -3,10 +3,9 @@ function like() {
   let likeButton = document.getElementById('like1');
   let likeCount = document.getElementById('angkalike1');
 
-  let count = parseInt(localStorage.getItem('likeCount'));
-  if (count == isNaN) {
-      count = 0;
-  };
+  let storedcount = parseInt(localStorage.getItem('likeCount'));
+  let count = storedcount !== null && !isNaN(storedcount) ? parseInt(storedcount) : 0;
+
   likeCount.textContent = count;
 
   if(count > 50) {
@@ -27,11 +26,9 @@ function like2() {
       let angka = document.getElementById('angkalike2');
 
       let count = parseInt(localStorage.getItem('angka'));
-      if(count == isNaN) {
-        count = 0
-      };
+      let storedcount = count !== null && !isNaN(count) ? parseInt(count) : 0;
 
-      angka.textContent = count
+      angka.textContent = storedcount
       if(count > 50) {
         document.getElementById('emoji-like2').style.visibility = 'visible'
       };
@@ -51,11 +48,10 @@ function like3() {
    const like = document.getElementById('like3');
 
    let save = parseInt(localStorage.getItem('angka'));
-   if(save == isNaN) {
-    save = 0
-   }
+   let storedcount = save !== null && !isNaN(save) ? parseInt(save) : 0;
 
-   angka.textContent = save;
+   angka.textContent = storedcount;
+
    if(save > 50) {
     emoji.style.visibility = 'visible';
    }
