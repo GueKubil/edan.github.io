@@ -6,7 +6,9 @@
       margin: 0;
       width: 100%;
     }
-    .emoji-like1 {
+   .emoji-like1 {
+        opacity: 0;
+        transition: opacity 1s;
         visibility: hidden;
     }
     .bungkuslike1 {
@@ -21,6 +23,8 @@
         cursor: pointer;
     }
     .emoji-like2 {
+        opacity: 0;
+        transition: opacity 1s;
         visibility: hidden;
     }
     .bungkuslike2 {
@@ -35,6 +39,8 @@
         cursor: pointer;
     }
     .emoji-like3 {
+        opacity: 0;
+        transition: opacity 1s;
         visibility: hidden;
     }
     .bungkuslike3 {
@@ -352,12 +358,10 @@
         margin-right: 1em;
     }
     .wa:hover {
-        width: 4.5rem;
-        height: 4.5rem;
+        transform: scale(1.1);
     }
     .fb:hover {
-        width: 4.5rem;
-        height: 4.5rem;
+        transform: scale(1.1);
     }
     .notif {
         display: none;
@@ -415,12 +419,10 @@
         height: 4rem;
     }
     .wa-footer:hover {
-        width: 3.5rem;
-        height: 3.5rem;
+        transform: scale(1.1);
     }
     .fb-footer:hover {
-        width: 3.5rem;
-        height: 3.5rem;
+        transform: scale(1.1);
     }
     .back-footer {
         background-color:   #617C58;
@@ -449,6 +451,8 @@
         width: 100%;
     }
     .emoji-like1 {
+        opacity: 0;
+        transition: opacity 1s;
         visibility: hidden;
     }
     .bungkuslike1 {
@@ -463,6 +467,8 @@
         cursor: pointer;
     }
     .emoji-like2 {
+        opacity: 0;
+        transition: opacity 1s;
         visibility: hidden;
     }
     .bungkuslike2 {
@@ -477,6 +483,8 @@
         cursor: pointer;
     }
     .emoji-like3 {
+        opacity: 0;
+        transition: opacity 0;
         visibility: hidden;
     }
     .bungkuslike3 {
@@ -540,7 +548,6 @@
         display: flex;
         font-weight: bold;
         margin-right: 5rem;
-        margin: 1rem;
         border-radius: 0.3rem;
         justify-content: center;
     }
@@ -552,7 +559,7 @@
         width: 50%;
         display: flex;
         font-weight: bold;
-        margin: 1rem;
+        margin-right: 5rem;
         border-radius: 0.3rem;
         justify-content: center;
     }
@@ -791,12 +798,10 @@
           margin-right: 1em;
       }
       .wa:hover {
-          width: 2.5em;
-          height: 2.5em;
+        transform: scale(1.1);
       }
       .fb:hover {
-          width: 2.5em;
-          height: 2.5em;
+        transform: scale(1.1);
       }
       .notif {
           visibility: hidden;
@@ -857,12 +862,10 @@
           height: 3rem;
       }
       .wa-footer:hover {
-          width: 2.5em;
-          height: 2.5em;
+        transform: scale(1.1);
       }
       .fb-footer:hover {
-          width: 2.5em;
-          height: 2.5em;
+        transform: scale(1.1);
       }
       .back-footer {
           background-color:   #617C58;
@@ -892,6 +895,8 @@
         margin: 0;
       }
       .emoji-like1 {
+        opacity: 0;
+        transition: opacity 1s;
         visibility: hidden;
     }
     .bungkuslike1 {
@@ -906,6 +911,8 @@
         cursor: pointer;
     }
     .emoji-like2 {
+        opacity: 0;
+        transition: opacity 1s;
         visibility: hidden;
     }
     .bungkuslike2 {
@@ -920,6 +927,8 @@
         cursor: pointer;
     }
     .emoji-like3 {
+        opacity: 0;
+        transition: opacity 1s;
         visibility: hidden;
     }
     .bungkuslike3 {
@@ -933,8 +942,7 @@
     .like3 {
         cursor: pointer;
     }
-
-      .overlay {
+    .overlay {
         position: fixed; /*buat absolut di javascript */
         top: 0;
         left: 0;
@@ -1253,14 +1261,12 @@
           margin-right: 3rem;
           margin-bottom: 1rem;
       }
-      /* .wa:hover {
-          width: 2.9em;
-          height: 2.9em;
+      .wa:hover {
+        transform: scale(1.1);
       }
       .fb:hover {
-          width: 2.5em;
-          height: 2.5em;
-      } */
+        transform: scale(1.1);
+      } 
       /* .notif {
           visibility: hidden;
           opacity:0 ;
@@ -1321,14 +1327,12 @@
         margin-left: 0.1rem;
         border-radius: 50%;
       }
-      /* .wa-footer:hover {
-          width: 1em;
-          height: 1em;
+      .wa-footer:hover {
+          transform: scale(1.1);
       }
       .fb-footer:hover {
-          width: 2.5em;
-          height: 2.5em;
-      } */
+        transform: scale(1.1);
+      } 
       .back-footer {
           background-color:   #617C58;
           display: flex;
@@ -1357,6 +1361,8 @@
         margin: 0;
       }
       .emoji-like1 {
+        opacity: 0;
+        transition: opacity 1s;
         visibility: hidden;
     }
     .bungkuslike1 {
@@ -1371,6 +1377,8 @@
         cursor: pointer;
     }
     .emoji-like2 {
+        opacity: 0;
+        transition: opacity 1s;
         visibility: hidden;
     }
     .bungkuslike2 {
@@ -1385,6 +1393,8 @@
         cursor: pointer;
     }
     .emoji-like3 {
+        opacity: 0;
+        transition: opacity 1s;
         visibility: hidden;
     }
     .bungkuslike3 {
@@ -1398,8 +1408,7 @@
     .like3 {
         cursor: pointer;
     }
-
-      .overlay {
+    .overlay {
         position: fixed; /*buat absolut di javascript */
         top: 0;
         left: 0;
@@ -1722,12 +1731,10 @@
           margin-bottom: 1rem;
       }
       .wa:hover {
-          width: 2.5em;
-          height: 2.5em;
+          transform: scale(1.1);
       }
       .fb:hover {
-          width: 2.5em;
-          height: 2.5em;
+        transform: scale(1.1);
       }
       /* .notif { */
           /* visibility: hidden;
@@ -1782,23 +1789,19 @@
           margin-left: 0.1rem;
           height: 2.5rem;
           border-radius: 50%;
-          
-          
-      }
+     }
       .fb-footer {
         width: 2.5rem;
         height: 2.5rem;
         margin-left: 0.1rem;
         border-radius: 50%;
       }
-      /* .wa-footer:hover {
-          width: 1em;
-          height: 1em;
+      .wa-footer:hover {
+          transform: scale(1.1);
       }
       .fb-footer:hover {
-          width: 2.5em;
-          height: 2.5em;
-      } */
+          transform: scale(1.1);
+      } 
       .back-footer {
           background-color:   #617C58;
           display: flex;
@@ -1829,6 +1832,8 @@
             margin: 0;
           }
           .emoji-like1 {
+            opacity: 0;
+            transition: opacity 1s;
             visibility: hidden;
         }
         .bungkuslike1 {
@@ -1843,6 +1848,8 @@
             cursor: pointer;
         }
         .emoji-like2 {
+            opacity: 0;
+            transition: opacity 1s;
             visibility: hidden;
         }
         .bungkuslike2 {
@@ -1857,6 +1864,8 @@
             cursor: pointer;
         }
         .emoji-like3 {
+            opacity: 0;
+            transition: opacity 1s;
             visibility: hidden;
         }
         .bungkuslike3 {
@@ -2192,15 +2201,13 @@
               margin-right: 3rem;
               margin-bottom: 1rem;
           }
-          /* .wa:hover {
-              width: 2.9em;
-              height: 2.9em;
+          .wa:hover {
+             transform: scale(1.2);
           }
           .fb:hover {
-              width: 2.5em;
-              height: 2.5em;
-          } */
-          .notif {
+            transform: scale(1.2);
+          } 
+          /* .notif {
               visibility: hidden;
               opacity:0 ;
               background-color: forestgreen;
@@ -2211,7 +2218,7 @@
               padding-left: 2vh;
               border-radius: 3vh;
               height: 2rem;
-          }
+          } */
           .row-navbar {
             width: 100%;
           }
@@ -2249,26 +2256,24 @@
               
           }
           .wa-footer {
-              width: 3rem;
+              width: 2.5rem;
               margin-left: 0.2rem;
-              height: 3rem;
+              height: 2.5rem;
               border-radius: 50%;
               
           }
           .fb-footer {
-            width: 3rem;
-            height: 3rem;
+            width: 2.5rem;
+            height: 2.5rem;
             margin-left: 0.1rem;
             border-radius: 50%;
           }
-          /* .wa-footer:hover {
-              width: 1em;
-              height: 1em;
+          .wa-footer:hover {
+            transform: scale(1.1);
           }
           .fb-footer:hover {
-              width: 2.5em;
-              height: 2.5em;
-          } */
+            transform: scale(1.1);
+          } 
           .back-footer {
               background-color:   #617C58;
               display: flex;
@@ -2299,6 +2304,8 @@
         margin: 0;
       }
       .emoji-like1 {
+        opacity: 0;
+        transition: opacity 1s;
         visibility: hidden;
     }
     .bungkuslike1 {
@@ -2313,6 +2320,8 @@
         cursor: pointer;
     }
     .emoji-like2 {
+        opacity: 0;
+        transition: opacity 1s;
         visibility: hidden;
     }
     .bungkuslike2 {
@@ -2327,6 +2336,8 @@
         cursor: pointer;
     }
     .emoji-like3 {
+        opacity: 0;
+        transition: opacity 1s;
         visibility: hidden;
     }
     .bungkuslike3 {
@@ -2673,12 +2684,10 @@
           margin-bottom: 1rem;
       }
        .wa:hover {
-          width: 2.5em;
-          height: 2.5em;
+        transform: scale(1.1);
       }
       .fb:hover {
-          width: 2.5em;
-          height: 2.5em;
+        transform: scale(1.1);
       } 
       /* .notif {
           visibility: hidden;
@@ -2741,14 +2750,12 @@
         margin-left: 0.1rem;
         border-radius: 50%;
       }
-      /* .wa-footer:hover {
-          width: 1em;
-          height: 1em;
+       .wa-footer:hover {
+        transform: scale(1.1);
       }
       .fb-footer:hover {
-          width: 2.5em;
-          height: 2.5em;
-      } */
+        transform: scale(1.1);
+      }  
       .back-footer {
           background-color:   #617C58;
           display: flex;

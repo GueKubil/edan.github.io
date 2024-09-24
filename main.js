@@ -1,69 +1,69 @@
-// FUNGSI LIKE1
+// FUNGSI SEMUA LIKE
 function like() {
-  let likeButton = document.getElementById('like1');
-  let likeCount = document.getElementById('angkalike1');
+  // FUNGSI LIKE1
+  const like1 = () => {
+    let like = document.getElementById('like1');
+   
+    like.addEventListener('click',() => {
+      let emoji = document.getElementById('emoji-like1');
+   
+      emoji.style.transition = '1s';
+      emoji.style.opacity = '1';
+      emoji.style.visibility = 'visible';
+      like.style.color = 'green';
 
-  let storedcount = parseInt(localStorage.getItem('likeCount'));
-  let count = storedcount !== null && !isNaN(storedcount) ? parseInt(storedcount) : 0;
-
-  likeCount.textContent = count;
-
-  if(count > 50) {
-    document.getElementById('emoji-like1').style.visibility = 'visible';
+      setTimeout(() => {
+        emoji.style.transition = '0.5s';
+        emoji.style.opacity = '0';
+        emoji.style.visibility = 'hidden';
+      }, 2000);
+    });
   };
+  like1();
 
-  likeButton.addEventListener('click', function() {
-      count++; 
-      likeCount.textContent = count; 
-      localStorage.setItem(count); 
-  });
+  // FUNGSI LIKE2
+  const like2 = () => {
+    let like = document.getElementById('like2');
+
+    like.addEventListener('click',() => {
+      let emoji = document.getElementById('emoji-like2');
+
+      like.style.color = 'green';
+      emoji.style.opacity = '1';
+      emoji.style.transition = '1s';
+      emoji.style.visibility = 'visible';
+
+      setTimeout(() => {
+        emoji.style.opacity = '0';
+        emoji.style.transition = '0.5s';
+        emoji.style.visibility = 'hidden';
+      }, 2000);
+    });
+  };
+  like2();
+
+  // FUNGSI LIKE3
+  const like3 = () => {
+    let like = document.getElementById('like3');
+
+    like.addEventListener('click',() => {
+      let emoji = document.querySelector('.emoji-like3');
+
+      like.style.color = 'green';
+      emoji.style.transition = '1s';
+      emoji.style.opacity = '1';
+      emoji.style.visibility = 'visible';
+
+      setTimeout(() => {
+        emoji.style.transition = '0.5s';
+        emoji.style.opacity = '0';
+        emoji.style.visibility = 'hidden';
+      }, 2000);
+    });
+  };
+  like3();
 };
 like();
-
-// FUNGSI LIKE2
-function like2() {
-      let like = document.getElementById('like2');
-      let angka = document.getElementById('angkalike2');
-
-      let count = parseInt(localStorage.getItem('angka'));
-      let storedCount = count !== null && !isNaN(count) ? parseInt(count) : 0;
-
-      angka.textContent = storedCount;
-      if(storedCount > 50) {
-        document.getElementById('emoji-like2').style.visibility = 'visible';
-      };
-
-      like.addEventListener('click',() => {
-        storedCount++
-        angka.textContent = storedCount;
-        localStorage.setItem(storedCount);
-      });
-};
-like2();
-
-// FUNGSI LIKE3
-function like3() {
-   const angka = document.getElementById('angkalike3');
-   const emoji = document.getElementById('emoji-like3');
-   const like = document.getElementById('like3');
-
-   let save = parseInt(localStorage.getItem('angka'));
-   let count = save !== null && !isNaN(save) ? parseInt(save) : 0;
-
-   angka.textContent = count;
-
-   if(count > 50) {
-    emoji.style.visibility = 'visible';
-   };
-
-  like.addEventListener('click',() => {
-      count++
-      angka.textContent = count;
-      localStorage.setItem(count);
-   });
-};
-like3();
-
 
 // FUNGSI IKLAN DAN OVERLAY
 function iklan() {
