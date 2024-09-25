@@ -1,3 +1,38 @@
+// FUNGSI NAVIGASI
+function navigasi() {
+  let display = document.getElementById('display-navigasi');
+  
+  const ShowNavbar = () => {
+    let nav = document.getElementById('navigasi');
+    
+    nav.addEventListener('click', function() {
+      display.style.transform = 'translateX(0)';
+      display.style.opacity = '1';
+      display.style.visibility = 'visible';
+    });
+  };
+  ShowNavbar();
+
+  const HiddenNavbar = () => {
+    let close = document.getElementById('close-navbar');
+    let x = document.getElementById('x-navbar');
+
+    x.addEventListener('click', function() {
+      display.style.transform = 'translateX(-100%)';
+      display.style.opacity = '0';
+      display.style.visibility = 'hidden';
+    });
+
+    close.addEventListener('click', function() {
+      display.style.transform = 'translateX(-100%)';
+      display.style.opacity = '0';
+      display.style.visibility = 'hidden';
+    });
+  };
+  HiddenNavbar();
+};
+navigasi();
+
 // FUNGSI SEMUA LIKE
 function like() {
   // FUNGSI LIKE1
@@ -11,6 +46,8 @@ function like() {
       emoji.style.opacity = '1';
       emoji.style.visibility = 'visible';
       like.style.color = 'green';
+      like.style.scale = '1.3'
+      like.style.transition = '0.5s'
 
       setTimeout(() => {
         emoji.style.transition = '0.5s';
@@ -29,6 +66,8 @@ function like() {
       let emoji = document.getElementById('emoji-like2');
 
       like.style.color = 'green';
+      like.style.scale = '1.3'
+      like.style.transition = '0.5s'
       emoji.style.opacity = '1';
       emoji.style.transition = '1s';
       emoji.style.visibility = 'visible';
@@ -53,6 +92,8 @@ function like() {
       emoji.style.transition = '1s';
       emoji.style.opacity = '1';
       emoji.style.visibility = 'visible';
+      like.style.scale = '1.3'
+      like.style.transition = '0.5s'
 
       setTimeout(() => {
         emoji.style.transition = '0.5s';
@@ -125,6 +166,28 @@ function FaceBook() {
 };
 FaceBook();
 
+// FUNGSI INSTAGRAM
+function ig() {
+  let item = document.getElementById('ig');
+  const show = () => {
+    item.addEventListener('mouseover', function() {
+      document.getElementById('notif').style.opacity = '1';
+      document.getElementById('notif').style.transition = '0.5s';
+      document.getElementById('notif').style.visibility = 'visible';  
+    });
+  };
+  show();
+
+  const hidden = () => {
+    item.addEventListener('mouseout', function() {
+      document.getElementById('notif').style.opacity = '0';
+      document.getElementById('notif').style.transition = '0.5s';
+      document.getElementById('notif').style.visibility = 'hidden';  
+    });
+  };
+  hidden();
+};
+ig();
 // FUNCTION ANIMASI DISPLAY SEBELUM KONTEN2
 function backAnimasi() {
     const back_animasi = document.getElementById('back-animasi');
@@ -151,7 +214,7 @@ function gambar1() {
   const scrollPosition = window.scrollY || document.documentElement.scrollTop; // INISIALISASI POSISI SCROLL
   const documentHeight = document.documentElement.scrollHeight - window.innerHeight; // RUMUS SCROLL
 
-  if((scrollPosition / documentHeight) >= 0.40 && (scrollPosition / documentHeight) <= 0.54) {
+  if((scrollPosition / documentHeight) >= 0.36 && (scrollPosition / documentHeight) <= 0.50) {
     Animasi_gambar1.style.visibility = 'visible'
     Animasi_gambar1.style.transition = '1s'
     Animasi_gambar1.style.opacity = '1'
