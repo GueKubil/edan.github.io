@@ -236,6 +236,7 @@
     .konten2 {
         background-color: #808D7C;
         margin-top: 7rem;
+        text-align: justify;
         border-radius: 2rem;
         margin-left: 1rem ;
         margin-right: 1rem;
@@ -400,6 +401,7 @@
         background-color:#808D7C;
         padding: 2rem;
         width: 93%;
+        text-align: justify;
         margin-top: 8rem;
         border-radius: 5rem;
         margin-left: 2rem;
@@ -749,6 +751,7 @@
           border-radius: 2rem;
           margin-left: 2rem ;
           margin-right: 1rem;
+          text-align: justify;
           width: 95%;
           padding-top: 3rem;
           padding-bottom: 5rem;
@@ -920,6 +923,7 @@
           margin-top: 8rem;
           width: 90%;
           border-radius: 3rem;
+          text-align: justify;
           margin-left: 2rem;
           margin-right: 2rem;
       }
@@ -978,6 +982,7 @@
           padding-top: 1rem;
           border-radius: 2rem;
           margin-bottom: 2rem;
+          text-align: justify
       }
       .span-footer {
           margin-left: 1rem;
@@ -1275,6 +1280,7 @@
           margin-top: 8rem;
           width: 85%;
           border-radius: 2rem;
+          text-align: justify;
           margin-left: 1rem;
     }
       .span-gambar1 {
@@ -1441,6 +1447,7 @@
           padding: 2rem;
           margin-top: 8rem;
           width: 85%;
+          text-align: justify;
           border-radius: 2rem;
           margin-left: 1rem;
           /* margin-right: 2rem; */
@@ -1510,6 +1517,7 @@
           background-color: #808D7C;
           margin-top: 5rem;
           padding-bottom: 2rem;
+          text-align: justify;
           margin-left: 1rem ;
           width: 93%;
           padding-top: 1rem;
@@ -1815,6 +1823,7 @@
         margin-top: 3rem;
         width: 72%;
         z-index: 9999;
+        text-align: justify;
         border-radius: 2rem;
         margin-left: 1rem;
         margin-right: 2rem;
@@ -1984,6 +1993,7 @@
           margin-top: 8rem;
           width: 72%;
           border-radius: 2rem;
+          text-align: justify;
           margin-left: 1rem;
           margin-right: 2rem;
           
@@ -2052,6 +2062,7 @@
           background-color: #808D7C;
           margin-top: 20%;
           padding-bottom: 2rem;
+          text-align: justify;
           margin-left: 1rem ;
           width: 90%;
           padding-top: 1rem;
@@ -2360,6 +2371,7 @@
             margin-top: 8rem;
             width: 80%;
             border-radius: 2rem;
+            text-align: justify;
             margin-left: 1rem;
         }
           .span-gambar1 {
@@ -2526,6 +2538,7 @@
               padding: 2rem;
               margin-top: 8rem;
               width: 80%;
+              text-align: justify;
               border-radius: 2rem;
               margin-left: 1rem;
               /* margin-right: 2rem; */
@@ -2596,7 +2609,7 @@
               margin-top: 6rem;
               padding-bottom: 2rem;
               margin-left: 1rem ;
-             
+              text-align: justify;
               width: 93%;
               padding-top: 1rem;
               border-radius: 1rem;
@@ -2906,6 +2919,7 @@
       .konten2 {
         background-color:#808D7C;
         padding: 2rem;
+        text-align: justify;
         margin-top: 4rem;
         width: 68%;
         border-radius: 2rem;
@@ -3079,6 +3093,7 @@
           margin-top: 8rem;
           width: 68%;
           border-radius: 1.5rem;
+          text-align: justify;
           margin-left: 1rem;
           margin-right: 2rem;
           
@@ -3146,6 +3161,7 @@
       .footer{
           background-color: #808D7C;
           margin-top: 4rem;
+          text-align: justify;
           padding-bottom: 2rem;
           margin-left: 1rem ;
           margin-right: 1rem;
